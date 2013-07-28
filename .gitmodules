@@ -1,3 +1,0 @@
-[submodule "nlp_tools"]
-	path = nlp_tools
-	url = https://github.com/jacobandreas/nlp_tools.git

@@ -24,10 +24,10 @@ dependencies, and `srilm_arch` to your machine architecture.
 Edit settings.yaml to choose a language and translation model for the particular
 experiment you want to run. Use the following additional settings:
 
-lang=en -> stem=true,  symm=srctotgt
-lang=de -> stem=true,  symm=tgttosrc
-lang=el -> stem=false, symm=tgttosrc
-lang=th -> stem=false, symm=tgttosrc
+    lang=en -> stem=true,  symm=srctotgt
+    lang=de -> stem=true,  symm=tgttosrc
+    lang=el -> stem=false, symm=tgttosrc
+    lang=th -> stem=false, symm=tgttosrc
 
 Note that due to random MERT initialization your exact accuracy and F1 values
 may differ slightly from those in the paper.

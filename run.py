@@ -54,36 +54,3 @@ if __name__ == '__main__':
     os.makedirs(base_work_dir)
 
   run_one(config)
-
-  #for np in (True, False):
-  #  for model in ('phrase', 'hier'):
-  #    for lang in ('en', 'de', 'el', 'th'):
-  #      print 'np: %s\nmodel: %s\nlang: %s' % (np, model, lang)
-  #      config.put('np', np)
-  #      config.put('model', model)
-  #      config.put('lang', lang)
-  #      if lang == 'en':
-  #        config.put('symm', 'srctotgt')
-  #      else:
-  #        config.put('symm', 'tgttosrc')
-  #      for i in range(10):
-  #        run_one(config)
-
-  #for lfrac in (0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0):
-  ##for lfrac in (0.1,):
-  #  for monolingual in (True, False):
-  #  #for monolingual in (True,):
-  #    for ul_only in (True, False):
-  #    #for ul_only in (True,):
-  #      if (not monolingual) and ul_only:
-  #        continue
-  #      config.put('lfrac', lfrac)
-  #      config.put('monolingual', monolingual)
-  #      config.put('ul_only', ul_only)
-  #      print 'lfrac: %f' % lfrac
-  #      print 'monolingual: %s' % monolingual
-  #      print 'ul_only: %s' % ul_only
-  #      for i in range(10):
-  #      #for i in range(2):
-  #        run_one(config)
-

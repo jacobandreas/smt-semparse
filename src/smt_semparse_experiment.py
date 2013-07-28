@@ -2,7 +2,7 @@ import logging
 import os
 from extractor import Extractor
 from functionalizer import Functionalizer
-from slot_checker import SlotChecker
+#from slot_checker import SlotChecker
 from srilm import SRILM
 from moses import Moses
 from nl_reweighter import NLReweighter
@@ -81,7 +81,7 @@ class SMTSemparseExperiment:
       logging.info('executing queries')
       if self.config.corpus == 'geo':
         GeoWorld(self.config).run()
-      elif self.config.corpus == 'atis':
-        SlotChecker(self.config).run()
+      #elif self.config.corpus == 'atis':
+      #  SlotChecker(self.config).run()
       else:
         QueryComparer(self.config).run()

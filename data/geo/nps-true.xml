@@ -1,0 +1,3926 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE examples [
+<!ELEMENT examples (example*)>
+<!ELEMENT example (nl*,mrl*,mrl-parse?)>
+<!ELEMENT nl (#PCDATA)>
+<!ELEMENT mrl (#PCDATA)>
+<!ELEMENT mrl-parse (node*)>
+<!ELEMENT node (#PCDATA)>
+]>
+<examples>
+
+ <example id='1'>
+  <nl lang='en'> virginia </nl>
+  <nl lang='es'> virginia </nl>
+  <nl lang='ja'> baajinia </nl>
+  <nl lang='tr'> virginia </nl>
+  <nl lang='el'> virginia </nl>
+  <nl lang='de'> virginia </nl>
+  <nl lang='th'> เวอร์จิเนีย </nl>
+  <nl lang='zh'> 弗吉尼亚 </nl>
+  <mrl lang='geo-funql'> ' virginia ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' virginia ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='2'>
+  <nl lang='en'> mississippi </nl>
+  <nl lang='es'> mississippi </nl>
+  <nl lang='ja'> mishishippi </nl>
+  <nl lang='tr'> mississippi </nl>
+  <nl lang='el'> mississippi </nl>
+  <nl lang='de'> mississippi </nl>
+  <nl lang='th'> มิสซิสซิปปี </nl>
+  <nl lang='zh'> 密西西比 </nl>
+  <mrl lang='geo-funql'> ' mississippi ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' mississippi ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='3'>
+  <nl lang='en'> arkansas </nl>
+  <nl lang='es'> arkansas </nl>
+  <nl lang='ja'> aakansaa </nl>
+  <nl lang='tr'> arkansas </nl>
+  <nl lang='el'> arkansas </nl>
+  <nl lang='de'> arkansas </nl>
+  <nl lang='th'> อาร์คันซอ </nl>
+  <nl lang='zh'> 阿肯色 </nl>
+  <mrl lang='geo-funql'> ' arkansas ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' arkansas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='4'>
+  <nl lang='en'> colorado </nl>
+  <nl lang='es'> colorado </nl>
+  <nl lang='ja'> kororado </nl>
+  <nl lang='tr'> colorado </nl>
+  <nl lang='el'> colorado </nl>
+  <nl lang='de'> colorado </nl>
+  <nl lang='th'> โคโลราโด </nl>
+  <nl lang='zh'> 科罗拉多 </nl>
+  <mrl lang='geo-funql'> ' colorado ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' colorado ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='5'>
+  <nl lang='en'> texas </nl>
+  <nl lang='es'> texas </nl>
+  <nl lang='ja'> tekisasu </nl>
+  <nl lang='tr'> texas </nl>
+  <nl lang='el'> texas </nl>
+  <nl lang='de'> texas </nl>
+  <nl lang='de'> texanische </nl>
+  <nl lang='th'> เท็กซัส </nl>
+  <nl lang='zh'> 德克萨斯 </nl>
+  <nl lang='zh'> 德 </nl>
+  <mrl lang='geo-funql'> ' texas ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' texas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='6'>
+  <nl lang='en'> oregon </nl>
+  <nl lang='es'> oregon </nl>
+  <nl lang='ja'> oregon </nl>
+  <nl lang='tr'> oregon </nl>
+  <nl lang='el'> oregon </nl>
+  <nl lang='de'> oregon </nl>
+  <nl lang='th'> โอเรกอน </nl>
+  <nl lang='zh'> 俄勒冈 </nl>
+  <mrl lang='geo-funql'> ' oregon ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' oregon ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='7'>
+  <nl lang='en'> alabama </nl>
+  <nl lang='es'> alabama </nl>
+  <nl lang='ja'> arabama </nl>
+  <nl lang='tr'> alabama </nl>
+  <nl lang='el'> alabama </nl>
+  <nl lang='el'> αλαμπάμα </nl>
+  <nl lang='de'> alabama </nl>
+  <nl lang='th'> อลาบามา </nl>
+  <nl lang='zh'> 阿拉巴马 </nl>
+  <mrl lang='geo-funql'> ' alabama ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' alabama ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='8'>
+  <nl lang='en'> usa </nl>
+  <nl lang='en'> us </nl>
+  <nl lang='en'> america </nl>
+  <nl lang='en'> united states </nl>
+  <nl lang='en'> country </nl>
+  <nl lang='es'> america </nl>
+  <nl lang='es'> usa </nl>
+  <nl lang='es'> us </nl>
+  <nl lang='es'> el pais </nl>
+  <nl lang='es'> united states </nl>
+  <nl lang='ja'> amerika </nl>
+  <nl lang='ja'> beikoku </nl>
+  <nl lang='ja'> kuni </nl>
+  <nl lang='tr'> amerika </nl>
+  <nl lang='tr'> usa </nl>
+  <nl lang='tr'> us </nl>
+  <nl lang='tr'> ulke </nl>
+  <nl lang='tr'> birlesik devletler </nl>
+  <nl lang='el'> ηπα </nl>
+  <nl lang='el'> αμερική </nl>
+  <nl lang='el'> usa </nl>
+  <nl lang='el'> ηνωμένες πολιτείες </nl>
+  <nl lang='el'> us </nl>
+  <nl lang='el'> χώρα </nl>
+  <nl lang='de'> usa </nl>
+  <nl lang='de'> amerika </nl>
+  <nl lang='de'> vereinigten staaten </nl>
+  <nl lang='de'> us </nl>
+  <nl lang='de'> dem land </nl>
+  <nl lang='th'> สหรัฐ </nl>
+  <nl lang='th'> อเมริกา </nl>
+  <nl lang='th'> สหรัฐอเมริกา </nl>
+  <nl lang='th'> ประเทศ อเมริกา </nl>
+  <nl lang='th'> แผ่นดิน อเมริกา </nl>
+  <nl lang='th'> ประเทศ สหรัฐอเมริกา </nl>
+  <nl lang='th'> ประเทศ </nl>
+  <nl lang='zh'> 这个 国家 </nl>
+  <nl lang='zh'> 美国 </nl>
+  <mrl lang='geo-funql'> ' usa ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CountryName -> ({ ' usa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='9'>
+  <nl lang='en'> california </nl>
+  <nl lang='es'> california </nl>
+  <nl lang='ja'> karifuorunia </nl>
+  <nl lang='tr'> california </nl>
+  <nl lang='el'> california </nl>
+  <nl lang='de'> california </nl>
+  <nl lang='de'> kaliforniens </nl>
+  <nl lang='de'> kalifornien </nl>
+  <nl lang='th'> แคลิฟอร์เนีย </nl>
+  <nl lang='zh'> 加 </nl>
+  <nl lang='zh'> 加利福尼亚 </nl>
+  <mrl lang='geo-funql'> ' california ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' california ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='10'>
+  <nl lang='en'> utah </nl>
+  <nl lang='es'> utah </nl>
+  <nl lang='ja'> yuutaa </nl>
+  <nl lang='tr'> utah </nl>
+  <nl lang='el'> utah </nl>
+  <nl lang='de'> utah </nl>
+  <nl lang='th'> ยูทาห์ </nl>
+  <nl lang='zh'> 犹他 </nl>
+  <mrl lang='geo-funql'> ' utah ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' utah ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='11'>
+  <nl lang='en'> alaska </nl>
+  <nl lang='es'> alaska </nl>
+  <nl lang='ja'> arasuka </nl>
+  <nl lang='tr'> alaska </nl>
+  <nl lang='el'> alaska </nl>
+  <nl lang='de'> alaska </nl>
+  <nl lang='th'> อลาสกา </nl>
+  <nl lang='th'> อลาสก้า </nl>
+  <nl lang='zh'> 阿拉斯加 </nl>
+  <mrl lang='geo-funql'> ' alaska ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' alaska ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='12'>
+  <nl lang='en'> massachusetts </nl>
+  <nl lang='es'> massachusetts </nl>
+  <nl lang='ja'> masachuusettsu </nl>
+  <nl lang='tr'> massachusetts </nl>
+  <nl lang='el'> massachusetts </nl>
+  <nl lang='de'> massachusetts </nl>
+  <nl lang='th'> แมสซาชูเซ็ต </nl>
+  <nl lang='th'> แมสซาชูเซ็ตต์ </nl>
+  <nl lang='zh'> 马萨诸塞 </nl>
+  <mrl lang='geo-funql'> ' massachusetts ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' massachusetts ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='13'>
+  <nl lang='en'> new mexico </nl>
+  <nl lang='es'> new mexico </nl>
+  <nl lang='ja'> nyuu mekishiko </nl>
+  <nl lang='tr'> new mexico </nl>
+  <nl lang='el'> new mexico </nl>
+  <nl lang='de'> new mexico </nl>
+  <nl lang='de'> neu mexiko </nl>
+  <nl lang='th'> นิวเม็กซิโก </nl>
+  <nl lang='zh'> 新墨西哥 </nl>
+  <mrl lang='geo-funql'> ' new mexico ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' new mexico ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='14'>
+  <nl lang='en'> north dakota </nl>
+  <nl lang='es'> north dakota </nl>
+  <nl lang='ja'> noosu dakota </nl>
+  <nl lang='tr'> north dakota </nl>
+  <nl lang='el'> north dakota </nl>
+  <nl lang='de'> north dakota </nl>
+  <nl lang='th'> นอร์ธดาโกต้า </nl>
+  <nl lang='th'> นอร์ธดาโกตา </nl>
+  <nl lang='zh'> 北达科他 </nl>
+  <mrl lang='geo-funql'> ' north dakota ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' north dakota ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='15'>
+  <nl lang='en'> new york </nl>
+  <nl lang='es'> new york </nl>
+  <nl lang='ja'> nyuu yooku </nl>
+  <nl lang='tr'> new york sehrinin </nl>
+  <nl lang='el'> new york </nl>
+  <nl lang='de'> stadt new york </nl>
+  <nl lang='de'> new york city </nl>
+  <nl lang='th'> นิวยอร์ค </nl>
+  <nl lang='zh'> 纽约 </nl>
+  <mrl lang='geo-funql'> ' new york ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' new york ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='16'>
+  <nl lang='en'> guadalupe peak </nl>
+  <nl lang='el'> κορυφή guadalupe </nl>
+  <nl lang='de'> guadalupe peak </nl>
+  <nl lang='th'> ยอดเขา กวาดาลูเป </nl>
+  <nl lang='zh'> 瓜峰 </nl>
+  <mrl lang='geo-funql'> ' guadalupe peak ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:PlaceName -> ({ ' guadalupe peak ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='17'>
+  <nl lang='en'> mount mckinley </nl>
+  <nl lang='el'> όρος mckinley </nl>
+  <nl lang='el'> όρους mckinley </nl>
+  <nl lang='de'> mount mckinley </nl>
+  <nl lang='th'> ยอดเขา แมคคินลีย์ </nl>
+  <nl lang='th'> ภูเขา แมคคินลีย์ </nl>
+  <nl lang='th'> ภูเขา แม็คคินลีย์ </nl>
+  <nl lang='zh'> 麦金利 山 </nl>
+  <mrl lang='geo-funql'> ' mount mckinley ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:PlaceName -> ({ ' mount mckinley ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='18'>
+  <nl lang='en'> montana </nl>
+  <nl lang='es'> montana </nl>
+  <nl lang='ja'> montana </nl>
+  <nl lang='tr'> montana </nl>
+  <nl lang='el'> montana </nl>
+  <nl lang='de'> montana </nl>
+  <nl lang='de'> montanas </nl>
+  <nl lang='th'> มอนตานา </nl>
+  <nl lang='th'> มอนตาน่า </nl>
+  <nl lang='zh'> 蒙大拿 </nl>
+  <mrl lang='geo-funql'> ' montana ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' montana ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='19'>
+  <nl lang='en'> delaware </nl>
+  <nl lang='es'> delaware </nl>
+  <nl lang='ja'> derawaru </nl>
+  <nl lang='tr'> delaware </nl>
+  <nl lang='el'> delaware </nl>
+  <nl lang='de'> delaware </nl>
+  <nl lang='th'> เดลาแวร์ </nl>
+  <nl lang='zh'> 特拉华 </nl>
+  <mrl lang='geo-funql'> ' delaware ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' delaware ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='20'>
+  <nl lang='en'> florida </nl>
+  <nl lang='es'> florida </nl>
+  <nl lang='ja'> furorida </nl>
+  <nl lang='tr'> florida </nl>
+  <nl lang='el'> florida </nl>
+  <nl lang='de'> floridas </nl>
+  <nl lang='de'> florida </nl>
+  <nl lang='de'> florida state </nl>
+  <nl lang='th'> ฟลอริด้า </nl>
+  <nl lang='th'> ฟลอริดา </nl>
+  <nl lang='zh'> 佛罗里达 </nl>
+  <mrl lang='geo-funql'> ' florida ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' florida ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='21'>
+  <nl lang='en'> louisiana </nl>
+  <nl lang='es'> louisiana </nl>
+  <nl lang='ja'> ruijiana </nl>
+  <nl lang='tr'> louisiana </nl>
+  <nl lang='el'> louisiana </nl>
+  <nl lang='de'> louisiana </nl>
+  <nl lang='th'> หลุยเซียนา </nl>
+  <nl lang='zh'> 路易斯安那 </nl>
+  <mrl lang='geo-funql'> ' louisiana ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' louisiana ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='22'>
+  <nl lang='en'> rio grande </nl>
+  <nl lang='es'> rio grande </nl>
+  <nl lang='ja'> rio gurande </nl>
+  <nl lang='tr'> rio grande </nl>
+  <nl lang='el'> rio grande </nl>
+  <nl lang='de'> rio grande </nl>
+  <nl lang='th'> ริโอแกรนด์ </nl>
+  <nl lang='zh'> 里奥格兰德 </nl>
+  <nl lang='zh'> 格兰德 </nl>
+  <mrl lang='geo-funql'> ' rio grande ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' rio grande ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='23'>
+  <nl lang='en'> colorado </nl>
+  <nl lang='es'> colorado </nl>
+  <nl lang='ja'> kororado </nl>
+  <nl lang='tr'> colorado </nl>
+  <nl lang='el'> colorado </nl>
+  <nl lang='de'> colorado </nl>
+  <nl lang='th'> โคโลราโด </nl>
+  <nl lang='zh'> 科罗拉多 </nl>
+  <mrl lang='geo-funql'> ' colorado ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' colorado ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='24'>
+  <nl lang='en'> delaware </nl>
+  <nl lang='es'> delaware </nl>
+  <nl lang='ja'> derawaru </nl>
+  <nl lang='tr'> delaware </nl>
+  <nl lang='el'> delaware </nl>
+  <nl lang='de'> delaware </nl>
+  <nl lang='th'> เดลาแวร์ </nl>
+  <nl lang='zh'> 特拉华 </nl>
+  <mrl lang='geo-funql'> ' delaware ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' delaware ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='25'>
+  <nl lang='en'> mississippi </nl>
+  <nl lang='es'> mississippi </nl>
+  <nl lang='ja'> mishishippi </nl>
+  <nl lang='tr'> mississippi </nl>
+  <nl lang='el'> mississippi </nl>
+  <nl lang='de'> mississippi </nl>
+  <nl lang='th'> มิสซิสซิปปี </nl>
+  <nl lang='zh'> 密西西比 </nl>
+  <mrl lang='geo-funql'> ' mississippi ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' mississippi ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='26'>
+  <nl lang='en'> missouri </nl>
+  <nl lang='es'> missouri </nl>
+  <nl lang='ja'> mizuuri </nl>
+  <nl lang='tr'> missouri </nl>
+  <nl lang='el'> missouri </nl>
+  <nl lang='de'> missouri </nl>
+  <nl lang='th'> มิสซูรี </nl>
+  <nl lang='th'> มิสซูรี่ </nl>
+  <nl lang='zh'> 密苏里 </nl>
+  <mrl lang='geo-funql'> ' missouri ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' missouri ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='27'>
+  <nl lang='en'> north platte </nl>
+  <nl lang='es'> north platte </nl>
+  <nl lang='ja'> noosu puratte </nl>
+  <nl lang='tr'> north platte </nl>
+  <nl lang='el'> βόρειος platte </nl>
+  <nl lang='de'> north platte </nl>
+  <nl lang='th'> นอร์ธเพลต </nl>
+  <nl lang='zh'> 北普拉特 </nl>
+  <mrl lang='geo-funql'> ' north platte ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' north platte ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='28'>
+  <nl lang='en'> ohio </nl>
+  <nl lang='es'> ohio </nl>
+  <nl lang='ja'> ohaio </nl>
+  <nl lang='tr'> ohio </nl>
+  <nl lang='el'> ohio </nl>
+  <nl lang='de'> ohio </nl>
+  <nl lang='th'> โอไฮโฮ </nl>
+  <nl lang='th'> โอไฮโอ </nl>
+  <nl lang='zh'> 俄亥俄 </nl>
+  <mrl lang='geo-funql'> ' ohio ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' ohio ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='29'>
+  <nl lang='en'> pennsylvania </nl>
+  <nl lang='el'> pennsylvania </nl>
+  <nl lang='de'> pennsylvania </nl>
+  <nl lang='th'> เพ็นซิลเวเนีย </nl>
+  <nl lang='th'> เพนซิลเวเนีย </nl>
+  <nl lang='zh'> 宾夕法尼亚 </nl>
+  <mrl lang='geo-funql'> ' pennsylvania ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' pennsylvania ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='30'>
+  <nl lang='en'> rhode island </nl>
+  <nl lang='es'> rhode island </nl>
+  <nl lang='ja'> roodoairando </nl>
+  <nl lang='tr'> rhode island </nl>
+  <nl lang='el'> rhode island </nl>
+  <nl lang='de'> rhode island </nl>
+  <nl lang='th'> โรดไอแลนด์ </nl>
+  <nl lang='zh'> 罗得岛 </nl>
+  <mrl lang='geo-funql'> ' rhode island ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' rhode island ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='31'>
+  <nl lang='en'> austin </nl>
+  <nl lang='es'> austin </nl>
+  <nl lang='ja'> ausuchin </nl>
+  <nl lang='tr'> austin </nl>
+  <nl lang='el'> austin </nl>
+  <nl lang='de'> austin </nl>
+  <nl lang='th'> ออสติน </nl>
+  <nl lang='zh'> 奥斯汀 </nl>
+  <mrl lang='geo-funql'> ' austin ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' austin ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='32'>
+  <nl lang='en'> boulder </nl>
+  <nl lang='el'> boulder </nl>
+  <nl lang='de'> boulder </nl>
+  <nl lang='th'> โบลเดอร์ </nl>
+  <nl lang='zh'> 博尔德 </nl>
+  <mrl lang='geo-funql'> ' boulder ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' boulder ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='33'>
+  <nl lang='en'> montgomery </nl>
+  <nl lang='el'> montgomery </nl>
+  <nl lang='de'> montgomery </nl>
+  <nl lang='th'> มอนต์โกเมอรี </nl>
+  <nl lang='zh'> 蒙哥马利 </nl>
+  <mrl lang='geo-funql'> ' montgomery ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' montgomery ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='34'>
+  <nl lang='en'> arizona </nl>
+  <nl lang='es'> arizona </nl>
+  <nl lang='ja'> arizona </nl>
+  <nl lang='tr'> arizona </nl>
+  <nl lang='el'> arizona </nl>
+  <nl lang='de'> arizona </nl>
+  <nl lang='th'> แอริโซนา </nl>
+  <nl lang='zh'> 亚利桑那 </nl>
+  <mrl lang='geo-funql'> ' arizona ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' arizona ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='35'>
+  <nl lang='en'> nebraska </nl>
+  <nl lang='es'> nebraska </nl>
+  <nl lang='ja'> neburasuka </nl>
+  <nl lang='tr'> nebraska </nl>
+  <nl lang='el'> nebraska </nl>
+  <nl lang='de'> nebraska </nl>
+  <nl lang='th'> เนบราสกา </nl>
+  <nl lang='th'> เนบราสก้า </nl>
+  <nl lang='zh'> 内布拉斯加 </nl>
+  <mrl lang='geo-funql'> ' nebraska ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' nebraska ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='36'>
+  <nl lang='en'> ohio </nl>
+  <nl lang='es'> ohio </nl>
+  <nl lang='ja'> ohaio </nl>
+  <nl lang='tr'> ohio </nl>
+  <nl lang='el'> ohio </nl>
+  <nl lang='de'> ohio </nl>
+  <nl lang='th'> โอไฮโอ </nl>
+  <nl lang='th'> โอไฮโฮ </nl>
+  <nl lang='zh'> 俄亥俄 </nl>
+  <mrl lang='geo-funql'> ' ohio ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' ohio ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='37'>
+  <nl lang='en'> nevada </nl>
+  <nl lang='es'> nevada </nl>
+  <nl lang='ja'> nebaada </nl>
+  <nl lang='tr'> nevada </nl>
+  <nl lang='el'> nevada </nl>
+  <nl lang='de'> nevada </nl>
+  <nl lang='th'> เนวาดา </nl>
+  <nl lang='zh'> 内华达 </nl>
+  <mrl lang='geo-funql'> ' nevada ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' nevada ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='38'>
+  <nl lang='en'> iowa </nl>
+  <nl lang='es'> iowa </nl>
+  <nl lang='ja'> aiowa </nl>
+  <nl lang='tr'> iowa </nl>
+  <nl lang='el'> iowa </nl>
+  <nl lang='de'> iowa </nl>
+  <nl lang='th'> ไอโอวา </nl>
+  <nl lang='zh'> 爱荷华 </nl>
+  <nl lang='zh'> 艾奥瓦 </nl>
+  <mrl lang='geo-funql'> ' iowa ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' iowa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='39'>
+  <nl lang='en'> new york </nl>
+  <nl lang='es'> new york </nl>
+  <nl lang='ja'> nyuu yooku </nl>
+  <nl lang='tr'> new york </nl>
+  <nl lang='el'> new york </nl>
+  <nl lang='de'> new york </nl>
+  <nl lang='de'> new yorks </nl>
+  <nl lang='th'> นิวยอร์ค </nl>
+  <nl lang='zh'> 纽约 </nl>
+  <mrl lang='geo-funql'> ' new york ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' new york ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='40'>
+  <nl lang='en'> texas </nl>
+  <nl lang='el'> texas </nl>
+  <nl lang='de'> texas </nl>
+  <nl lang='th'> เท็กซัส </nl>
+  <nl lang='zh'> 得克萨斯 </nl>
+  <mrl lang='geo-funql'> ' tx ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' tx ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='41'>
+  <nl lang='en'> chicago </nl>
+  <nl lang='el'> chicago </nl>
+  <nl lang='de'> chicago </nl>
+  <nl lang='th'> ชิคาโก </nl>
+  <nl lang='zh'> 芝加哥 </nl>
+  <mrl lang='geo-funql'> ' chicago ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' chicago ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='42'>
+  <nl lang='en'> detroit </nl>
+  <nl lang='el'> detroit </nl>
+  <nl lang='de'> detroit </nl>
+  <nl lang='th'> ดีทรอยท์ </nl>
+  <nl lang='zh'> 底特律 </nl>
+  <mrl lang='geo-funql'> ' detroit ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' detroit ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='43'>
+  <nl lang='en'> hawaii </nl>
+  <nl lang='es'> hawaii </nl>
+  <nl lang='ja'> hawai </nl>
+  <nl lang='tr'> hawaii </nl>
+  <nl lang='el'> hawaii </nl>
+  <nl lang='de'> hawaii </nl>
+  <nl lang='th'> ฮาวาย </nl>
+  <nl lang='zh'> 夏威夷 </nl>
+  <mrl lang='geo-funql'> ' hawaii ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' hawaii ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='44'>
+  <nl lang='en'> houston </nl>
+  <nl lang='el'> houston </nl>
+  <nl lang='de'> houston </nl>
+  <nl lang='th'> ฮุสตัน </nl>
+  <nl lang='zh'> 休斯敦 </nl>
+  <mrl lang='geo-funql'> ' houston ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' houston ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='45'>
+  <nl lang='en'> kalamazoo </nl>
+  <nl lang='es'> kalamazoo </nl>
+  <nl lang='ja'> karamazuu </nl>
+  <nl lang='tr'> kalamazoo </nl>
+  <nl lang='el'> kalamazoo </nl>
+  <nl lang='de'> kalamazoo </nl>
+  <nl lang='th'> คาลามาซู </nl>
+  <nl lang='zh'> 卡拉马祖 </nl>
+  <mrl lang='geo-funql'> ' kalamazoo ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' kalamazoo ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='46'>
+  <nl lang='en'> kansas </nl>
+  <nl lang='es'> kansas </nl>
+  <nl lang='ja'> kanzasu </nl>
+  <nl lang='tr'> kansas </nl>
+  <nl lang='el'> kansas </nl>
+  <nl lang='de'> kansas </nl>
+  <nl lang='th'> แคนซัส </nl>
+  <nl lang='zh'> 堪萨斯 </nl>
+  <mrl lang='geo-funql'> ' kansas ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' kansas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='47'>
+  <nl lang='en'> minneapolis </nl>
+  <nl lang='es'> minneapolis </nl>
+  <nl lang='ja'> mineaporisu </nl>
+  <nl lang='tr'> minneapolis </nl>
+  <nl lang='el'> minneapolis </nl>
+  <nl lang='de'> minneapolis </nl>
+  <nl lang='th'> มินเนอาโพลิส </nl>
+  <nl lang='zh'> 明尼阿波利斯 </nl>
+  <mrl lang='geo-funql'> ' minneapolis ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' minneapolis ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='48'>
+  <nl lang='en'> minnesota </nl>
+  <nl lang='es'> minnesota </nl>
+  <nl lang='ja'> minesota </nl>
+  <nl lang='tr'> minnesota </nl>
+  <nl lang='el'> minnesota </nl>
+  <nl lang='de'> minnesota </nl>
+  <nl lang='th'> มินเนโซตา </nl>
+  <nl lang='zh'> 明尼苏达 </nl>
+  <mrl lang='geo-funql'> ' mn ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' mn ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='49'>
+  <nl lang='en'> new hampshire </nl>
+  <nl lang='es'> new hampshire </nl>
+  <nl lang='ja'> nyuu hanpushaa </nl>
+  <nl lang='tr'> new hampshire </nl>
+  <nl lang='el'> new hampshire </nl>
+  <nl lang='de'> new hampshire </nl>
+  <nl lang='th'> นิวแฮมพ์เชียร์ </nl>
+  <nl lang='zh'> 新罕布什尔 </nl>
+  <mrl lang='geo-funql'> ' new hampshire ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' new hampshire ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='50'>
+  <nl lang='en'> riverside </nl>
+  <nl lang='es'> riverside </nl>
+  <nl lang='ja'> ribaasaido </nl>
+  <nl lang='tr'> riverside </nl>
+  <nl lang='el'> όχθη ποταμού </nl>
+  <nl lang='de'> riverside </nl>
+  <nl lang='th'> ริเวอร์ไซด์ </nl>
+  <nl lang='zh'> 里弗赛德斯塔特 </nl>
+  <mrl lang='geo-funql'> ' riverside ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' riverside ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='51'>
+  <nl lang='en'> san francisco </nl>
+  <nl lang='el'> san francisco </nl>
+  <nl lang='de'> san francisco </nl>
+  <nl lang='th'> ซานฟรานซิสโก </nl>
+  <nl lang='zh'> 旧金山 </nl>
+  <mrl lang='geo-funql'> ' san francisco ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' san francisco ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='52'>
+  <nl lang='en'> south dakota </nl>
+  <nl lang='es'> south dakota </nl>
+  <nl lang='ja'> sausu dakota </nl>
+  <nl lang='tr'> south dakota </nl>
+  <nl lang='el'> νότια dakota </nl>
+  <nl lang='el'> south dakota </nl>
+  <nl lang='de'> sud dakota </nl>
+  <nl lang='de'> south dakota </nl>
+  <nl lang='th'> เซาท์ดาโกตา </nl>
+  <nl lang='th'> เซาธ์ดาโกตา </nl>
+  <nl lang='zh'> 南达科他 </nl>
+  <mrl lang='geo-funql'> ' south dakota ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' south dakota ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='53'>
+  <nl lang='en'> spokane </nl>
+  <nl lang='es'> spokane </nl>
+  <nl lang='ja'> supoken </nl>
+  <nl lang='tr'> spokane </nl>
+  <nl lang='el'> spokane </nl>
+  <nl lang='de'> spokane </nl>
+  <nl lang='th'> สโปเกน </nl>
+  <nl lang='zh'> 斯波坎 </nl>
+  <mrl lang='geo-funql'> ' spokane ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' spokane ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='54'>
+  <nl lang='en'> washington </nl>
+  <nl lang='es'> washington </nl>
+  <nl lang='ja'> washinton </nl>
+  <nl lang='tr'> washington </nl>
+  <nl lang='el'> washington </nl>
+  <nl lang='de'> washington </nl>
+  <nl lang='th'> วอชิงตัน </nl>
+  <nl lang='zh'> 华盛顿 </nl>
+  <mrl lang='geo-funql'> ' wa ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' wa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='55'>
+  <nl lang='en'> georgia </nl>
+  <nl lang='es'> georgia </nl>
+  <nl lang='ja'> joojaa </nl>
+  <nl lang='tr'> georgia </nl>
+  <nl lang='el'> georgia </nl>
+  <nl lang='de'> georgias </nl>
+  <nl lang='de'> georgia </nl>
+  <nl lang='th'> จอร์เจีย </nl>
+  <nl lang='zh'> 佐治亚 </nl>
+  <mrl lang='geo-funql'> ' georgia ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' georgia ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='56'>
+  <nl lang='en'> wyoming </nl>
+  <nl lang='es'> wyoming </nl>
+  <nl lang='ja'> waiomingu </nl>
+  <nl lang='tr'> wyoming </nl>
+  <nl lang='el'> wyoming </nl>
+  <nl lang='de'> wyoming </nl>
+  <nl lang='de'> wyomings </nl>
+  <nl lang='th'> ไวโอมิง </nl>
+  <nl lang='zh'> 怀俄明 </nl>
+  <mrl lang='geo-funql'> ' wyoming ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' wyoming ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='57'>
+  <nl lang='en'> washington </nl>
+  <nl lang='es'> washington </nl>
+  <nl lang='ja'> washinton </nl>
+  <nl lang='tr'> washington </nl>
+  <nl lang='el'> washington </nl>
+  <nl lang='de'> washington </nl>
+  <nl lang='th'> วอชิงตัน </nl>
+  <nl lang='zh'> 华盛顿 </nl>
+  <mrl lang='geo-funql'> ' washington ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' washington ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='58'>
+  <nl lang='en'> washington </nl>
+  <nl lang='el'> washington </nl>
+  <nl lang='de'> washington </nl>
+  <nl lang='th'> วอชิงตัน </nl>
+  <nl lang='zh'> 华盛顿 </nl>
+  <mrl lang='geo-funql'> ' washington ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' washington ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='59'>
+  <nl lang='en'> dc </nl>
+  <nl lang='el'> dc </nl>
+  <nl lang='de'> dc </nl>
+  <nl lang='th'> ดีซี </nl>
+  <nl lang='zh'> 特区 </nl>
+  <mrl lang='geo-funql'> ' dc ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' dc ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='60'>
+  <nl lang='en'> missouri </nl>
+  <nl lang='el'> missouri </nl>
+  <nl lang='de'> missouri </nl>
+  <nl lang='th'> มิสซูรี </nl>
+  <nl lang='zh'> 密苏里 </nl>
+  <mrl lang='geo-funql'> ' missouri ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' missouri ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='61'>
+  <nl lang='en'> idaho </nl>
+  <nl lang='es'> idaho </nl>
+  <nl lang='ja'> aidahou </nl>
+  <nl lang='tr'> idaho </nl>
+  <nl lang='el'> idaho </nl>
+  <nl lang='de'> idaho </nl>
+  <nl lang='th'> ไอดาโฮ </nl>
+  <nl lang='zh'> 爱达荷 </nl>
+  <mrl lang='geo-funql'> ' idaho ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' idaho ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='62'>
+  <nl lang='en'> albany </nl>
+  <nl lang='el'> albany </nl>
+  <nl lang='de'> albany </nl>
+  <nl lang='th'> อัลบานี </nl>
+  <nl lang='zh'> 奥尔巴尼 </nl>
+  <mrl lang='geo-funql'> ' albany ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' albany ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='63'>
+  <nl lang='en'> red </nl>
+  <nl lang='el'> red </nl>
+  <nl lang='de'> red </nl>
+  <nl lang='th'> เรด </nl>
+  <nl lang='th'> เร็ด </nl>
+  <nl lang='zh'> 红 </nl>
+  <mrl lang='geo-funql'> ' red ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' red ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='64'>
+  <nl lang='en'> boston </nl>
+  <nl lang='es'> boston </nl>
+  <nl lang='ja'> bosuton </nl>
+  <nl lang='tr'> boston </nl>
+  <nl lang='el'> boston </nl>
+  <nl lang='de'> boston </nl>
+  <nl lang='th'> บอสตัน </nl>
+  <nl lang='zh'> 波士顿 </nl>
+  <mrl lang='geo-funql'> ' boston ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' boston ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='65'>
+  <nl lang='en'> tennessee </nl>
+  <nl lang='es'> tennessee </nl>
+  <nl lang='ja'> teneshii </nl>
+  <nl lang='tr'> tennessee </nl>
+  <nl lang='el'> tennessee </nl>
+  <nl lang='de'> tennessee </nl>
+  <nl lang='th'> เทนเนสซี </nl>
+  <nl lang='zh'> 田纳西 </nl>
+  <mrl lang='geo-funql'> ' tennessee ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' tennessee ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='66'>
+  <nl lang='en'> rochester </nl>
+  <nl lang='el'> rochester </nl>
+  <nl lang='de'> rochester </nl>
+  <nl lang='th'> โรเชสเตอร์ </nl>
+  <nl lang='zh'> 罗切斯特 </nl>
+  <mrl lang='geo-funql'> ' rochester ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' rochester ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='67'>
+  <nl lang='en'> springfield </nl>
+  <nl lang='es'> springfield </nl>
+  <nl lang='ja'> supuringufiirudo </nl>
+  <nl lang='tr'> springfield </nl>
+  <nl lang='el'> springfield </nl>
+  <nl lang='de'> springfield </nl>
+  <nl lang='th'> สปริงฟิลด์ </nl>
+  <nl lang='zh'> 斯普林菲尔德 </nl>
+  <mrl lang='geo-funql'> ' springfield ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' springfield ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='68'>
+  <nl lang='en'> michigan </nl>
+  <nl lang='es'> michigan </nl>
+  <nl lang='ja'> mishigan </nl>
+  <nl lang='tr'> michigan </nl>
+  <nl lang='el'> michigan </nl>
+  <nl lang='de'> michigan </nl>
+  <nl lang='th'> มิชิแกน </nl>
+  <nl lang='zh'> 密歇根 </nl>
+  <mrl lang='geo-funql'> ' michigan ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' michigan ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='69'>
+  <nl lang='en'> sacramento </nl>
+  <nl lang='el'> sacramento </nl>
+  <nl lang='de'> sacramento </nl>
+  <nl lang='th'> ซาคราเม็นโต </nl>
+  <nl lang='zh'> 萨克拉门托 </nl>
+  <mrl lang='geo-funql'> ' sacramento ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' sacramento ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='70'>
+  <nl lang='en'> san antonio </nl>
+  <nl lang='es'> san antonio </nl>
+  <nl lang='ja'> sanantonio </nl>
+  <nl lang='tr'> san antonio </nl>
+  <nl lang='el'> san antonio </nl>
+  <nl lang='de'> san antonio </nl>
+  <nl lang='th'> ซานอันโตนิโอ </nl>
+  <nl lang='zh'> 圣安东尼奥 </nl>
+  <mrl lang='geo-funql'> ' san antonio ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' san antonio ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='71'>
+  <nl lang='en'> north carolina </nl>
+  <nl lang='el'> north carolina </nl>
+  <nl lang='de'> north carolinas </nl>
+  <nl lang='th'> นอร์ธแคโรไลนา </nl>
+  <nl lang='zh'> 北卡罗来纳 </nl>
+  <mrl lang='geo-funql'> ' north carolina ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' north carolina ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='72'>
+  <nl lang='en'> oklahoma </nl>
+  <nl lang='es'> oklahoma </nl>
+  <nl lang='ja'> okurahoma </nl>
+  <nl lang='tr'> oklahoma </nl>
+  <nl lang='el'> oklahoma </nl>
+  <nl lang='de'> oklahoma </nl>
+  <nl lang='th'> โอกลาโฮมา </nl>
+  <nl lang='zh'> 俄克拉荷马 </nl>
+  <mrl lang='geo-funql'> ' oklahoma ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' oklahoma ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='73'>
+  <nl lang='en'> vermont </nl>
+  <nl lang='es'> vermont </nl>
+  <nl lang='ja'> baamonto </nl>
+  <nl lang='tr'> vermont </nl>
+  <nl lang='el'> vermont </nl>
+  <nl lang='de'> vermont </nl>
+  <nl lang='th'> เวอร์มอนต์ </nl>
+  <nl lang='th'> เวอร์ม็อนต์ </nl>
+  <nl lang='zh'> 佛蒙特 </nl>
+  <mrl lang='geo-funql'> ' vermont ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' vermont ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='74'>
+  <nl lang='en'> illinois </nl>
+  <nl lang='es'> illinois </nl>
+  <nl lang='ja'> irinoi </nl>
+  <nl lang='tr'> illinois </nl>
+  <nl lang='el'> illinois </nl>
+  <nl lang='de'> illinois </nl>
+  <nl lang='th'> อิลลินอยส์ </nl>
+  <nl lang='zh'> 伊利诺伊 </nl>
+  <mrl lang='geo-funql'> ' illinois ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' illinois ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='75'>
+  <nl lang='en'> indiana </nl>
+  <nl lang='es'> indiana </nl>
+  <nl lang='ja'> indiana </nl>
+  <nl lang='tr'> indiana </nl>
+  <nl lang='el'> indiana </nl>
+  <nl lang='de'> indiana </nl>
+  <nl lang='th'> อินเดียนา </nl>
+  <nl lang='th'> อินเดียน่า </nl>
+  <nl lang='zh'> 印第安纳 </nl>
+  <mrl lang='geo-funql'> ' indiana ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' indiana ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='76'>
+  <nl lang='en'> potomac </nl>
+  <nl lang='el'> potomac </nl>
+  <nl lang='de'> potomac </nl>
+  <nl lang='th'> โปโตแมค </nl>
+  <nl lang='zh'> 波托马克 </nl>
+  <mrl lang='geo-funql'> ' potomac ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' potomac ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='77'>
+  <nl lang='en'> maine </nl>
+  <nl lang='es'> maine </nl>
+  <nl lang='ja'> meen </nl>
+  <nl lang='tr'> maine </nl>
+  <nl lang='el'> maine </nl>
+  <nl lang='de'> maine </nl>
+  <nl lang='th'> เมน </nl>
+  <nl lang='zh'> 缅因 </nl>
+  <mrl lang='geo-funql'> ' maine ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' maine ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='78'>
+  <nl lang='en'> maryland </nl>
+  <nl lang='el'> maryland </nl>
+  <nl lang='de'> maryland </nl>
+  <nl lang='th'> แมรีแลนด์ </nl>
+  <nl lang='zh'> 马里兰 </nl>
+  <mrl lang='geo-funql'> ' maryland ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' maryland ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='79'>
+  <nl lang='en'> seattle </nl>
+  <nl lang='es'> seattle </nl>
+  <nl lang='ja'> shiatoru </nl>
+  <nl lang='tr'> seattle </nl>
+  <nl lang='el'> seattle </nl>
+  <nl lang='de'> seattles </nl>
+  <nl lang='th'> ซีแอตเทิล </nl>
+  <nl lang='th'> ซีแอตเติล </nl>
+  <nl lang='zh'> 西雅图 </nl>
+  <mrl lang='geo-funql'> ' seattle ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' seattle ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='80'>
+  <nl lang='en'> south carolina </nl>
+  <nl lang='es'> south carolina </nl>
+  <nl lang='ja'> sausu karoraina </nl>
+  <nl lang='tr'> south carolina </nl>
+  <nl lang='el'> south carolina </nl>
+  <nl lang='de'> south carolina </nl>
+  <nl lang='th'> เซาท์แคโรไลนา </nl>
+  <nl lang='zh'> 南卡罗来纳 </nl>
+  <mrl lang='geo-funql'> ' south carolina ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' south carolina ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='81'>
+  <nl lang='en'> wisconsin </nl>
+  <nl lang='es'> wisconsin </nl>
+  <nl lang='ja'> uisukonshin </nl>
+  <nl lang='tr'> wisconsin </nl>
+  <nl lang='el'> wisconsin </nl>
+  <nl lang='de'> wisconsin </nl>
+  <nl lang='th'> วิสคอนซิน </nl>
+  <nl lang='zh'> 威斯康星 </nl>
+  <mrl lang='geo-funql'> ' wisconsin ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' wisconsin ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='82'>
+  <nl lang='en'> new jersey </nl>
+  <nl lang='es'> new jersey </nl>
+  <nl lang='ja'> nyuu jaajii </nl>
+  <nl lang='tr'> new jersey </nl>
+  <nl lang='el'> new jersey </nl>
+  <nl lang='de'> new jersey </nl>
+  <nl lang='th'> นิวเจอร์ซี </nl>
+  <nl lang='zh'> 新泽西 </nl>
+  <mrl lang='geo-funql'> ' new jersey ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' new jersey ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='83'>
+  <nl lang='en'> durham </nl>
+  <nl lang='el'> durham </nl>
+  <nl lang='de'> durham </nl>
+  <nl lang='th'> เดอแรม </nl>
+  <nl lang='zh'> 达勒姆 </nl>
+  <mrl lang='geo-funql'> ' durham ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' durham ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='84'>
+  <nl lang='en'> death valley </nl>
+  <nl lang='el'> death valley </nl>
+  <nl lang='de'> death valley </nl>
+  <nl lang='th'> เดธแวลีย์ </nl>
+  <nl lang='zh'> 死亡谷 </nl>
+  <mrl lang='geo-funql'> ' death valley ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:PlaceName -> ({ ' death valley ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='85'>
+  <nl lang='en'> sea level </nl>
+  <nl lang='el'> επίπεδο της θάλασσας </nl>
+  <nl lang='de'> meeresniveau </nl>
+  <nl lang='th'> ระดับ น้ำ ทะเล </nl>
+  <nl lang='zh'> 海平面 </nl>
+  <mrl lang='geo-funql'> ' 0 ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:Num -> ({ ' 0 ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='86'>
+  <nl lang='en'> des moines </nl>
+  <nl lang='es'> des moines </nl>
+  <nl lang='ja'> demoin </nl>
+  <nl lang='tr'> des moines </nl>
+  <nl lang='el'> des moines </nl>
+  <nl lang='de'> des moines </nl>
+  <nl lang='th'> เดส์มวง </nl>
+  <nl lang='zh'> 德梅因 </nl>
+  <mrl lang='geo-funql'> ' des moines ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' des moines ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='87'>
+  <nl lang='en'> minnesota </nl>
+  <nl lang='es'> minnesota </nl>
+  <nl lang='ja'> minesota </nl>
+  <nl lang='tr'> minnesota </nl>
+  <nl lang='el'> minnesota </nl>
+  <nl lang='de'> minnesota </nl>
+  <nl lang='th'> มินเนโซตา </nl>
+  <nl lang='zh'> 明尼苏达 </nl>
+  <mrl lang='geo-funql'> ' minnesota ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' minnesota ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='88'>
+  <nl lang='en'> kentucky </nl>
+  <nl lang='es'> kentucky </nl>
+  <nl lang='ja'> kentakkii </nl>
+  <nl lang='tr'> kentucky </nl>
+  <nl lang='el'> kentucky </nl>
+  <nl lang='de'> kentucky </nl>
+  <nl lang='th'> เคนตักกี้ </nl>
+  <nl lang='th'> เคนตักกี </nl>
+  <nl lang='zh'> 肯塔基 </nl>
+  <mrl lang='geo-funql'> ' kentucky ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' kentucky ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='89'>
+  <nl lang='en'> atlanta </nl>
+  <nl lang='es'> atlanta </nl>
+  <nl lang='ja'> ataranta </nl>
+  <nl lang='tr'> atlanta </nl>
+  <nl lang='el'> atlanta </nl>
+  <nl lang='de'> atlanta </nl>
+  <nl lang='th'> แอตแลนต้า </nl>
+  <nl lang='zh'> 亚特兰大 </nl>
+  <mrl lang='geo-funql'> ' atlanta ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' atlanta ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='90'>
+  <nl lang='en'> ga </nl>
+  <nl lang='el'> ga </nl>
+  <nl lang='de'> ga </nl>
+  <nl lang='th'> จอร์เจีย </nl>
+  <nl lang='zh'> 佐治亚 </nl>
+  <mrl lang='geo-funql'> ' ga ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' ga ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='91'>
+  <nl lang='en'> massachusetts </nl>
+  <nl lang='es'> massachusetts </nl>
+  <nl lang='ja'> masachuusettsu </nl>
+  <nl lang='tr'> massachusetts </nl>
+  <nl lang='el'> massachusetts </nl>
+  <nl lang='de'> massachusetts </nl>
+  <nl lang='th'> แมสซาชูเซ็ตต์ </nl>
+  <nl lang='zh'> 马萨诸塞 </nl>
+  <mrl lang='geo-funql'> ' ma ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' ma ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='92'>
+  <nl lang='en'> dallas </nl>
+  <nl lang='es'> dallas </nl>
+  <nl lang='ja'> darasu </nl>
+  <nl lang='tr'> dallas </nl>
+  <nl lang='el'> dallas </nl>
+  <nl lang='de'> dallas </nl>
+  <nl lang='th'> ดัลลัส </nl>
+  <nl lang='zh'> 达拉斯 </nl>
+  <mrl lang='geo-funql'> ' dallas ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' dallas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='93'>
+  <nl lang='en'> denver </nl>
+  <nl lang='es'> denver </nl>
+  <nl lang='ja'> denbaru </nl>
+  <nl lang='tr'> denver </nl>
+  <nl lang='el'> denver </nl>
+  <nl lang='de'> denver </nl>
+  <nl lang='th'> เดนเวอร์ </nl>
+  <nl lang='zh'> 丹佛 </nl>
+  <mrl lang='geo-funql'> ' denver ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' denver ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='94'>
+  <nl lang='en'> erie </nl>
+  <nl lang='es'> erie </nl>
+  <nl lang='ja'> eri </nl>
+  <nl lang='tr'> erie </nl>
+  <nl lang='el'> erie </nl>
+  <nl lang='de'> erie </nl>
+  <nl lang='th'> อีรี </nl>
+  <nl lang='zh'> 伊利 </nl>
+  <mrl lang='geo-funql'> ' erie ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' erie ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='95'>
+  <nl lang='en'> pennsylvania </nl>
+  <nl lang='es'> pennsylvania </nl>
+  <nl lang='ja'> penshirubenia </nl>
+  <nl lang='tr'> pennsylvania </nl>
+  <nl lang='el'> pennsylvania </nl>
+  <nl lang='de'> pennsylvania </nl>
+  <nl lang='th'> เพ็นซิลเวเนีย </nl>
+  <nl lang='zh'> 宾夕法尼亚 </nl>
+  <mrl lang='geo-funql'> ' pa ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' pa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='96'>
+  <nl lang='en'> portland </nl>
+  <nl lang='es'> portland </nl>
+  <nl lang='ja'> porutorando </nl>
+  <nl lang='tr'> portland </nl>
+  <nl lang='el'> portland </nl>
+  <nl lang='de'> portland </nl>
+  <nl lang='th'> พอร์ตแลนด์ </nl>
+  <nl lang='zh'> 波特兰 </nl>
+  <mrl lang='geo-funql'> ' portland ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' portland ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='97'>
+  <nl lang='en'> maine </nl>
+  <nl lang='es'> maine </nl>
+  <nl lang='ja'> meen </nl>
+  <nl lang='tr'> maine </nl>
+  <nl lang='el'> maine </nl>
+  <nl lang='de'> maine </nl>
+  <nl lang='th'> เมน </nl>
+  <nl lang='zh'> 缅因 </nl>
+  <mrl lang='geo-funql'> ' me ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' me ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='98'>
+  <nl lang='en'> missouri </nl>
+  <nl lang='es'> missouri </nl>
+  <nl lang='ja'> mizuuri </nl>
+  <nl lang='tr'> missouri </nl>
+  <nl lang='el'> missouri </nl>
+  <nl lang='de'> missouri </nl>
+  <nl lang='th'> มิสซูรี </nl>
+  <nl lang='zh'> 密苏里 </nl>
+  <mrl lang='geo-funql'> ' mo ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' mo ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='99'>
+  <nl lang='en'> south dakota </nl>
+  <nl lang='el'> νότια ντακότα </nl>
+  <nl lang='de'> south dakota </nl>
+  <nl lang='th'> เซาท์ดาโกตา </nl>
+  <nl lang='zh'> 南达科他 </nl>
+  <mrl lang='geo-funql'> ' sd ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' sd ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='100'>
+  <nl lang='en'> tempe </nl>
+  <nl lang='es'> tempe </nl>
+  <nl lang='ja'> tenpi </nl>
+  <nl lang='tr'> tempe </nl>
+  <nl lang='el'> tempe </nl>
+  <nl lang='de'> tempe </nl>
+  <nl lang='th'> เทมเป้ </nl>
+  <nl lang='zh'> 坦佩 </nl>
+  <mrl lang='geo-funql'> ' tempe ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' tempe ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='101'>
+  <nl lang='en'> arizona </nl>
+  <nl lang='es'> arizona </nl>
+  <nl lang='ja'> arizona </nl>
+  <nl lang='tr'> arizona </nl>
+  <nl lang='el'> arizona </nl>
+  <nl lang='de'> arizona </nl>
+  <nl lang='th'> แอริโซนา </nl>
+  <nl lang='zh'> 亚利桑那 </nl>
+  <mrl lang='geo-funql'> ' az ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateAbbrev -> ({ ' az ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='102'>
+  <nl lang='en'> tucson </nl>
+  <nl lang='es'> tucson </nl>
+  <nl lang='ja'> tsuuson </nl>
+  <nl lang='tr'> tucson </nl>
+  <nl lang='el'> tucson </nl>
+  <nl lang='de'> tucson </nl>
+  <nl lang='th'> ทูซอน </nl>
+  <nl lang='zh'> 图森 </nl>
+  <mrl lang='geo-funql'> ' tucson ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' tucson ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='103'>
+  <nl lang='en'> west virginia </nl>
+  <nl lang='es'> west virginia </nl>
+  <nl lang='ja'> uesuto baajinia </nl>
+  <nl lang='tr'> west virginia </nl>
+  <nl lang='el'> west virginia </nl>
+  <nl lang='de'> west virginia </nl>
+  <nl lang='th'> เวสท์เวอร์จิเนีย </nl>
+  <nl lang='zh'> 西弗吉尼亚 </nl>
+  <mrl lang='geo-funql'> ' west virginia ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:StateName -> ({ ' west virginia ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='104'>
+  <nl lang='en'> salem </nl>
+  <nl lang='es'> salem </nl>
+  <nl lang='ja'> saremu </nl>
+  <nl lang='tr'> salem </nl>
+  <nl lang='el'> salem </nl>
+  <nl lang='de'> salem </nl>
+  <nl lang='th'> ซาเล็ม </nl>
+  <nl lang='zh'> 塞勒姆 </nl>
+  <mrl lang='geo-funql'> ' salem ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' salem ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='105'>
+  <nl lang='en'> flint </nl>
+  <nl lang='es'> flint </nl>
+  <nl lang='ja'> furinto </nl>
+  <nl lang='tr'> flint </nl>
+  <nl lang='el'> flint </nl>
+  <nl lang='de'> stadt flint </nl>
+  <nl lang='th'> ฟลินท์ </nl>
+  <nl lang='zh'> 弗林特 </nl>
+  <mrl lang='geo-funql'> ' flint ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' flint ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='106'>
+  <nl lang='en'> columbus </nl>
+  <nl lang='es'> columbus </nl>
+  <nl lang='ja'> koronbaasu </nl>
+  <nl lang='tr'> columbus </nl>
+  <nl lang='el'> columbus </nl>
+  <nl lang='de'> columbus </nl>
+  <nl lang='th'> โคลัมบัส </nl>
+  <nl lang='zh'> 哥伦布 </nl>
+  <mrl lang='geo-funql'> ' columbus ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' columbus ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='107'>
+  <nl lang='en'> miami </nl>
+  <nl lang='el'> miami </nl>
+  <nl lang='de'> miami </nl>
+  <nl lang='th'> ไมอามี </nl>
+  <nl lang='zh'> 迈阿密 </nl>
+  <mrl lang='geo-funql'> ' miami ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' miami ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='108'>
+  <nl lang='en'> pittsburgh </nl>
+  <nl lang='el'> pittsburgh </nl>
+  <nl lang='de'> pittsburgh </nl>
+  <nl lang='th'> พิทส์เบิร์ก </nl>
+  <nl lang='zh'> 匹兹堡 </nl>
+  <mrl lang='geo-funql'> ' pittsburgh ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' pittsburgh ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='109'>
+  <nl lang='en'> dover </nl>
+  <nl lang='es'> dover </nl>
+  <nl lang='ja'> doobaa </nl>
+  <nl lang='tr'> dover </nl>
+  <nl lang='el'> dover </nl>
+  <nl lang='de'> dover </nl>
+  <nl lang='th'> โดเวอร์ </nl>
+  <nl lang='zh'> 多佛 </nl>
+  <mrl lang='geo-funql'> ' dover ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' dover ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='110'>
+  <nl lang='en'> plano </nl>
+  <nl lang='es'> plano </nl>
+  <nl lang='ja'> purano </nl>
+  <nl lang='tr'> plano </nl>
+  <nl lang='el'> plano </nl>
+  <nl lang='de'> plano </nl>
+  <nl lang='th'> พลาโน </nl>
+  <nl lang='zh'> 普莱诺 </nl>
+  <mrl lang='geo-funql'> ' plano ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' plano ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='111'>
+  <nl lang='en'> salt lake city </nl>
+  <nl lang='el'> salt lake city </nl>
+  <nl lang='de'> salt lake city </nl>
+  <nl lang='th'> ซอลท์เลคซิตี </nl>
+  <nl lang='zh'> 盐湖城 </nl>
+  <mrl lang='geo-funql'> ' salt lake city ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' salt lake city ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='112'>
+  <nl lang='en'> baton rouge </nl>
+  <nl lang='el'> baton rouge </nl>
+  <nl lang='de'> baton rouge </nl>
+  <nl lang='th'> บาทงรูจ </nl>
+  <nl lang='zh'> 巴吞鲁日 </nl>
+  <mrl lang='geo-funql'> ' baton rouge ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' baton rouge ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='113'>
+  <nl lang='en'> fort wayne </nl>
+  <nl lang='el'> fort wayne </nl>
+  <nl lang='de'> fort wayne </nl>
+  <nl lang='th'> ฟอร์ต เวยน์ </nl>
+  <nl lang='zh'> 韦恩堡 </nl>
+  <mrl lang='geo-funql'> ' fort wayne ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' fort wayne ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='114'>
+  <nl lang='en'> indianapolis </nl>
+  <nl lang='el'> indianapolis </nl>
+  <nl lang='de'> indianapolis </nl>
+  <nl lang='th'> อินเดียนาโปลิส </nl>
+  <nl lang='zh'> 印第安纳波利斯 </nl>
+  <mrl lang='geo-funql'> ' indianapolis ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' indianapolis ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='115'>
+  <nl lang='en'> mount whitney </nl>
+  <nl lang='el'> mount whitney </nl>
+  <nl lang='el'> όρος whitney </nl>
+  <nl lang='de'> mount whitney </nl>
+  <nl lang='th'> ภูเขา วิทนีย์ </nl>
+  <nl lang='th'> ยอดเขา วิทนีย์ </nl>
+  <nl lang='zh'> 惠特尼 </nl>
+  <mrl lang='geo-funql'> ' mount whitney ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:PlaceName -> ({ ' mount whitney ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='116'>
+  <nl lang='en'> new orleans </nl>
+  <nl lang='el'> new orleans </nl>
+  <nl lang='de'> new orleans </nl>
+  <nl lang='th'> นิวออร์ลีนส์ </nl>
+  <nl lang='zh'> 新奥尔良 </nl>
+  <mrl lang='geo-funql'> ' new orleans ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' new orleans ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='117'>
+  <nl lang='en'> san diego </nl>
+  <nl lang='el'> san diego </nl>
+  <nl lang='de'> san diego </nl>
+  <nl lang='th'> ซานดิอาโก </nl>
+  <nl lang='zh'> 圣地亚哥 </nl>
+  <mrl lang='geo-funql'> ' san diego ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' san diego ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='118'>
+  <nl lang='en'> san jose </nl>
+  <nl lang='el'> san jose </nl>
+  <nl lang='de'> san jose </nl>
+  <nl lang='th'> ซาน โฮเซ </nl>
+  <nl lang='zh'> 圣何塞 </nl>
+  <mrl lang='geo-funql'> ' san jose ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' san jose ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='119'>
+  <nl lang='en'> scotts valley </nl>
+  <nl lang='el'> scotts valley </nl>
+  <nl lang='de'> scotts valley </nl>
+  <nl lang='th'> สก็อตแวลลีย์ </nl>
+  <nl lang='zh'> 斯科茨瓦利 </nl>
+  <mrl lang='geo-funql'> ' scotts valley ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:CityName -> ({ ' scotts valley ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='120'>
+  <nl lang='en'> chattahoochee </nl>
+  <nl lang='el'> chattahoochee </nl>
+  <nl lang='de'> chattahoochee </nl>
+  <nl lang='th'> แช็ตตาฮูชี </nl>
+  <nl lang='th'> แชตตาฮูชี </nl>
+  <nl lang='zh'> 查塔胡奇 </nl>
+  <mrl lang='geo-funql'> ' chattahoochee ' </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:RiverName -> ({ ' chattahoochee ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='121'>
+  <nl lang='en'> virginia </nl>
+  <nl lang='es'> virginia </nl>
+  <nl lang='ja'> baajinia </nl>
+  <nl lang='tr'> virginia </nl>
+  <nl lang='el'> virginia </nl>
+  <nl lang='de'> virginia </nl>
+  <nl lang='th'> รัฐ เวอร์จิเนีย </nl>
+  <nl lang='zh'> ﻿弗吉尼亚 </nl>
+  <nl lang='zh'> 弗吉尼亚 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' virginia ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' virginia ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='122'>
+  <nl lang='en'> mississippi </nl>
+  <nl lang='es'> mississippi </nl>
+  <nl lang='ja'> mishishippi </nl>
+  <nl lang='tr'> mississippi </nl>
+  <nl lang='el'> mississippi </nl>
+  <nl lang='de'> mississippi </nl>
+  <nl lang='th'> รัฐ มิสซิสซิปปี </nl>
+  <nl lang='zh'> 密西西比 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' mississippi ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' mississippi ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='123'>
+  <nl lang='en'> arkansas </nl>
+  <nl lang='es'> arkansas </nl>
+  <nl lang='ja'> aakansaa </nl>
+  <nl lang='tr'> arkansas </nl>
+  <nl lang='el'> arkansas </nl>
+  <nl lang='de'> arkansas </nl>
+  <nl lang='th'> รัฐ อาร์คันซอ </nl>
+  <nl lang='zh'> 阿肯色 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' arkansas ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' arkansas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='124'>
+  <nl lang='en'> colorado </nl>
+  <nl lang='es'> colorado </nl>
+  <nl lang='ja'> kororado </nl>
+  <nl lang='tr'> colorado </nl>
+  <nl lang='el'> colorado </nl>
+  <nl lang='de'> colorado </nl>
+  <nl lang='th'> รัฐ โคโลราโด </nl>
+  <nl lang='zh'> 科罗拉多 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' colorado ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' colorado ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='125'>
+  <nl lang='en'> texas </nl>
+  <nl lang='en'> texas state </nl>
+  <nl lang='en'> state texas </nl>
+  <nl lang='es'> texas </nl>
+  <nl lang='ja'> tekisasu </nl>
+  <nl lang='ja'> tekisasu no shuu </nl>
+  <nl lang='tr'> texas </nl>
+  <nl lang='tr'> texas eyaletinin </nl>
+  <nl lang='tr'> eyaletin texas </nl>
+  <nl lang='el'> texas </nl>
+  <nl lang='el'> πολιτεία του texas </nl>
+  <nl lang='el'> πολιτείας του texas </nl>
+  <nl lang='de'> texas </nl>
+  <nl lang='de'> staates texas </nl>
+  <nl lang='de'> texanische stadt </nl>
+  <nl lang='th'> รัฐ เท็กซัส </nl>
+  <nl lang='th'> เท็กซัส </nl>
+  <nl lang='zh'> 得克萨斯 州 </nl>
+  <nl lang='zh'> 得克萨斯 </nl>
+  <nl lang='zh'> 德克萨斯 州 </nl>
+  <nl lang='zh'> 德 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' texas ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' texas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='126'>
+  <nl lang='en'> oregon </nl>
+  <nl lang='es'> oregon </nl>
+  <nl lang='ja'> oregon </nl>
+  <nl lang='tr'> oregon </nl>
+  <nl lang='el'> oregon </nl>
+  <nl lang='el'> πολιτεία του oregon </nl>
+  <nl lang='de'> oregon </nl>
+  <nl lang='de'> staate oregon </nl>
+  <nl lang='th'> รัฐ โอเรกอน </nl>
+  <nl lang='zh'> 俄勒冈 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' oregon ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' oregon ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='127'>
+  <nl lang='en'> alabama </nl>
+  <nl lang='en'> alabama state </nl>
+  <nl lang='es'> alabama </nl>
+  <nl lang='ja'> arabama </nl>
+  <nl lang='tr'> alabama </nl>
+  <nl lang='el'> alabama </nl>
+  <nl lang='el'> αλαμπάμα </nl>
+  <nl lang='de'> alabama </nl>
+  <nl lang='de'> staates alabama </nl>
+  <nl lang='th'> รัฐ อลาบามา </nl>
+  <nl lang='zh'> 阿拉巴马 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' alabama ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' alabama ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='128'>
+  <nl lang='en'> usa </nl>
+  <nl lang='en'> us </nl>
+  <nl lang='en'> america </nl>
+  <nl lang='en'> united states </nl>
+  <nl lang='en'> country </nl>
+  <nl lang='es'> america </nl>
+  <nl lang='es'> usa </nl>
+  <nl lang='es'> us </nl>
+  <nl lang='es'> el pais </nl>
+  <nl lang='es'> united states </nl>
+  <nl lang='ja'> amerika </nl>
+  <nl lang='ja'> beikoku </nl>
+  <nl lang='ja'> kuni </nl>
+  <nl lang='tr'> amerika </nl>
+  <nl lang='tr'> usa </nl>
+  <nl lang='tr'> us </nl>
+  <nl lang='tr'> ulke </nl>
+  <nl lang='tr'> birlesik devletler </nl>
+  <nl lang='el'> ηπα </nl>
+  <nl lang='el'> αμερική </nl>
+  <nl lang='el'> usa </nl>
+  <nl lang='el'> ηνωμένες πολιτείες </nl>
+  <nl lang='el'> us </nl>
+  <nl lang='el'> χώρα </nl>
+  <nl lang='de'> usa </nl>
+  <nl lang='de'> amerika </nl>
+  <nl lang='de'> vereinigten staaten </nl>
+  <nl lang='de'> us </nl>
+  <nl lang='de'> dem land </nl>
+  <nl lang='th'> สหรัฐ </nl>
+  <nl lang='th'> อเมริกา </nl>
+  <nl lang='th'> ประเทศ </nl>
+  <nl lang='th'> สหรัฐอเมริกา </nl>
+  <nl lang='th'> ประเทศ อเมริกา </nl>
+  <nl lang='th'> แผ่นดิน อเมริกา </nl>
+  <nl lang='th'> ประเทศ สหรัฐอเมริกา </nl>
+  <nl lang='zh'> 这个 国家 </nl>
+  <nl lang='zh'> 美国 </nl>
+  <mrl lang='geo-funql'> countryid ( ' usa ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:Country -> ({ countryid ( *n:CountryName ) }) </node>
+   <node id='1'> *n:CountryName -> ({ ' usa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='129'>
+  <nl lang='en'> california </nl>
+  <nl lang='en'> state of california </nl>
+  <nl lang='es'> california </nl>
+  <nl lang='es'> estado de california </nl>
+  <nl lang='ja'> karifuorunia </nl>
+  <nl lang='ja'> karifuorunia no shuu </nl>
+  <nl lang='tr'> california </nl>
+  <nl lang='tr'> california eyaletinin </nl>
+  <nl lang='el'> california </nl>
+  <nl lang='el'> πολιτεία της california </nl>
+  <nl lang='de'> california </nl>
+  <nl lang='de'> kaliforniens </nl>
+  <nl lang='de'> kalifornien </nl>
+  <nl lang='de'> staat california </nl>
+  <nl lang='th'> รัฐ แคลิฟอร์เนีย </nl>
+  <nl lang='zh'> 加 </nl>
+  <nl lang='zh'> 加利福尼亚 </nl>
+  <nl lang='zh'> 加 州 </nl>
+  <nl lang='zh'> 加利福尼亚 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' california ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' california ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='130'>
+  <nl lang='en'> utah </nl>
+  <nl lang='es'> utah </nl>
+  <nl lang='ja'> yuutaa </nl>
+  <nl lang='tr'> utah </nl>
+  <nl lang='el'> utah </nl>
+  <nl lang='de'> utah </nl>
+  <nl lang='th'> รัฐ ยูทาห์ </nl>
+  <nl lang='zh'> 犹他 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' utah ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' utah ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='131'>
+  <nl lang='en'> alaska </nl>
+  <nl lang='es'> alaska </nl>
+  <nl lang='ja'> arasuka </nl>
+  <nl lang='tr'> alaska </nl>
+  <nl lang='el'> alaska </nl>
+  <nl lang='de'> alaska </nl>
+  <nl lang='th'> รัฐ อลาสกา </nl>
+  <nl lang='th'> รัฐ อลาสก้า </nl>
+  <nl lang='zh'> 阿拉斯加 </nl>
+  <mrl lang='geo-funql'> stateid ( ' alaska ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' alaska ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='132'>
+  <nl lang='en'> massachusetts </nl>
+  <nl lang='es'> massachusetts </nl>
+  <nl lang='ja'> masachuusettsu </nl>
+  <nl lang='tr'> massachusetts </nl>
+  <nl lang='el'> massachusetts </nl>
+  <nl lang='de'> massachusetts </nl>
+  <nl lang='th'> รัฐ แมสซาชูเซ็ต </nl>
+  <nl lang='th'> รัฐ แมสซาชูเซ็ตต์ </nl>
+  <nl lang='zh'> 马萨诸塞 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' massachusetts ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' massachusetts ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='133'>
+  <nl lang='en'> new mexico </nl>
+  <nl lang='es'> new mexico </nl>
+  <nl lang='ja'> nyuu mekishiko </nl>
+  <nl lang='tr'> new mexico </nl>
+  <nl lang='el'> new mexico </nl>
+  <nl lang='de'> new mexico </nl>
+  <nl lang='de'> neu mexiko </nl>
+  <nl lang='th'> นิวเม็กซิโก </nl>
+  <nl lang='th'> รัฐ นิวเม็กซิโก </nl>
+  <nl lang='zh'> 新墨西哥 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' new mexico ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' new mexico ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='134'>
+  <nl lang='en'> north dakota </nl>
+  <nl lang='es'> north dakota </nl>
+  <nl lang='ja'> noosu dakota </nl>
+  <nl lang='tr'> north dakota </nl>
+  <nl lang='el'> north dakota </nl>
+  <nl lang='de'> north dakota </nl>
+  <nl lang='th'> รัฐ นอร์ธดาโกต้า </nl>
+  <nl lang='th'> รัฐ นอร์ธดาโกตา </nl>
+  <nl lang='zh'> 北达科他 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' north dakota ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' north dakota ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='135'>
+  <nl lang='en'> city of new york </nl>
+  <nl lang='en'> new york city </nl>
+  <nl lang='es'> ciudad new york </nl>
+  <nl lang='ja'> nyuu yooku toshi </nl>
+  <nl lang='tr'> new york sehrinin </nl>
+  <nl lang='el'> new york city </nl>
+  <nl lang='el'> πόλη της new york </nl>
+  <nl lang='de'> stadt new york </nl>
+  <nl lang='de'> new york city </nl>
+  <nl lang='th'> เมือง นิวยอร์ค </nl>
+  <nl lang='zh'> 纽约 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' new york ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' new york ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='136'>
+  <nl lang='en'> guadalupe peak </nl>
+  <nl lang='el'> κορυφή guadalupe </nl>
+  <nl lang='de'> guadalupe peak </nl>
+  <nl lang='th'> ยอดเขา กวาดาลูเป </nl>
+  <nl lang='zh'> 瓜峰 </nl>
+  <mrl lang='geo-funql'> placeid ( ' guadalupe peak ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:Place -> ({ placeid ( *n:PlaceName ) }) </node>
+   <node id='1'> *n:PlaceName -> ({ ' guadalupe peak ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='137'>
+  <nl lang='en'> mount mckinley ? </nl>
+  <nl lang='el'> όρος mckinley </nl>
+  <nl lang='el'> όρους mckinley </nl>
+  <nl lang='de'> mount mckinley </nl>
+  <nl lang='de'> mount mckinleys </nl>
+  <nl lang='th'> ยอดเขา แมคคินลีย์ </nl>
+  <nl lang='th'> ภูเขา แมคคินลีย์ </nl>
+  <nl lang='th'> ภูเขา แม็คคินลีย์ </nl>
+  <nl lang='zh'> 麦金利 山 </nl>
+  <mrl lang='geo-funql'> placeid ( ' mount mckinley ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:Place -> ({ placeid ( *n:PlaceName ) }) </node>
+   <node id='1'> *n:PlaceName -> ({ ' mount mckinley ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='138'>
+  <nl lang='en'> montana </nl>
+  <nl lang='es'> montana </nl>
+  <nl lang='ja'> montana </nl>
+  <nl lang='tr'> montana </nl>
+  <nl lang='el'> montana </nl>
+  <nl lang='de'> montana </nl>
+  <nl lang='de'> montanas </nl>
+  <nl lang='th'> รัฐ มอนตานา </nl>
+  <nl lang='th'> รัฐ มอนตาน่า </nl>
+  <nl lang='zh'> 蒙大拿 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' montana ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' montana ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='139'>
+  <nl lang='en'> delaware </nl>
+  <nl lang='es'> delaware </nl>
+  <nl lang='ja'> derawaru </nl>
+  <nl lang='tr'> delaware </nl>
+  <nl lang='el'> delaware </nl>
+  <nl lang='de'> delaware </nl>
+  <nl lang='th'> รัฐ เดลาแวร์ </nl>
+  <nl lang='zh'> 特拉华 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' delaware ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' delaware ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='140'>
+  <nl lang='en'> florida </nl>
+  <nl lang='en'> florida state </nl>
+  <nl lang='es'> florida </nl>
+  <nl lang='ja'> furorida </nl>
+  <nl lang='tr'> florida </nl>
+  <nl lang='el'> florida </nl>
+  <nl lang='el'> πολιτείας florida </nl>
+  <nl lang='de'> floridas </nl>
+  <nl lang='de'> florida </nl>
+  <nl lang='de'> florida state </nl>
+  <nl lang='th'> ฟลอริด้า </nl>
+  <nl lang='th'> รัฐ ฟลอริด้า </nl>
+  <nl lang='th'> รัฐ ฟลอริดา </nl>
+  <nl lang='zh'> 佛罗里达 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' florida ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' florida ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='141'>
+  <nl lang='en'> louisiana </nl>
+  <nl lang='es'> louisiana </nl>
+  <nl lang='ja'> ruijiana </nl>
+  <nl lang='tr'> louisiana </nl>
+  <nl lang='el'> louisiana </nl>
+  <nl lang='de'> louisiana </nl>
+  <nl lang='th'> รัฐ หลุยเซียนา </nl>
+  <nl lang='zh'> 路易斯安那 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' louisiana ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' louisiana ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='142'>
+  <nl lang='en'> rio grande </nl>
+  <nl lang='en'> rio grande river </nl>
+  <nl lang='es'> rio rio grande </nl>
+  <nl lang='ja'> rio gurande kawa </nl>
+  <nl lang='tr'> rio grande nehrinin </nl>
+  <nl lang='el'> rio grande </nl>
+  <nl lang='el'> ποταμός rio grande </nl>
+  <nl lang='de'> rio grande </nl>
+  <nl lang='de'> rio grande fluss </nl>
+  <nl lang='th'> แม่น้ำ ริโอแกรนด์ </nl>
+  <nl lang='zh'> 里奥格兰德 河 </nl>
+  <nl lang='zh'> 格兰德 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' rio grande ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' rio grande ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='143'>
+  <nl lang='en'> colorado </nl>
+  <nl lang='en'> colorado river </nl>
+  <nl lang='es'> rio colorado </nl>
+  <nl lang='ja'> kororado kawa </nl>
+  <nl lang='tr'> colorado nehrinin </nl>
+  <nl lang='tr'> colorado nehri </nl>
+  <nl lang='tr'> colorado nehrinin </nl>
+  <nl lang='el'> colorado </nl>
+  <nl lang='el'> ποταμός colorado </nl>
+  <nl lang='el'> ποταμού colorado </nl>
+  <nl lang='el'> colorado ποταμός </nl>
+  <nl lang='de'> colorado </nl>
+  <nl lang='de'> colorado fluss </nl>
+  <nl lang='de'> fluss colorado </nl>
+  <nl lang='de'> colorado flusses </nl>
+  <nl lang='th'> โคโลราโด </nl>
+  <nl lang='th'> แม่น้ำ โคโลราโด </nl>
+  <nl lang='zh'> 科罗拉多 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' colorado ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' colorado ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='144'>
+  <nl lang='en'> delaware river </nl>
+  <nl lang='es'> rio delaware </nl>
+  <nl lang='ja'> derawaru kawa </nl>
+  <nl lang='tr'> delaware nehrinin </nl>
+  <nl lang='tr'> delaware nehri </nl>
+  <nl lang='el'> ποταμός delaware </nl>
+  <nl lang='de'> delaware </nl>
+  <nl lang='de'> delaware river </nl>
+  <nl lang='th'> แม่น้ำ เดลาแวร์ </nl>
+  <nl lang='zh'> 特拉华 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' delaware ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' delaware ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='145'>
+  <nl lang='en'> mississippi </nl>
+  <nl lang='en'> mississippi river </nl>
+  <nl lang='es'> mississippi </nl>
+  <nl lang='es'> rio mississippi </nl>
+  <nl lang='ja'> mishishippi kawa </nl>
+  <nl lang='tr'> mississippi </nl>
+  <nl lang='tr'> mississippi nehrinin </nl>
+  <nl lang='tr'> mississippi nehri </nl>
+  <nl lang='el'> mississippi </nl>
+  <nl lang='el'> ποταμός mississippi </nl>
+  <nl lang='el'> mississippi ποταμός </nl>
+  <nl lang='el'> mississippi ποταμό </nl>
+  <nl lang='el'> ποταμό mississippi </nl>
+  <nl lang='el'> ποταμού mississippi </nl>
+  <nl lang='de'> mississippi </nl>
+  <nl lang='de'> mississippi fluss </nl>
+  <nl lang='de'> fluss mississippi </nl>
+  <nl lang='th'> แม่น้ำ มิสซิสซิปปี </nl>
+  <nl lang='zh'> 密西西比 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' mississippi ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' mississippi ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='146'>
+  <nl lang='en'> missouri river </nl>
+  <nl lang='en'> missouri</nl>
+  <nl lang='es'> missouri </nl>
+  <nl lang='es'> rio missouri </nl>
+  <nl lang='ja'> mizuuri kawa </nl>
+  <nl lang='tr'> missouri nehrinin </nl>
+  <nl lang='tr'> missouri </nl>
+  <nl lang='tr'> missouri nehri </nl>
+  <nl lang='el'> missouri </nl>
+  <nl lang='el'> ποταμός missouri </nl>
+  <nl lang='el'> ποταμό missouri </nl>
+  <nl lang='el'> missouri ποταμός </nl>
+  <nl lang='de'> missouri </nl>
+  <nl lang='de'> fluss missouri </nl>
+  <nl lang='de'> missouri fluss </nl>
+  <nl lang='th'> แม่น้ำ มิสซูรี </nl>
+  <nl lang='th'> แม่น้ำ มิสซูรี่ </nl>
+  <nl lang='zh'> 密苏里 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' missouri ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' missouri ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='147'>
+  <nl lang='en'> north platte river </nl>
+  <nl lang='es'> rio north platte </nl>
+  <nl lang='ja'> noosu puratte kawa </nl>
+  <nl lang='tr'> north platte nehrinin </nl>
+  <nl lang='el'> βόρειος platte ποταμός </nl>
+  <nl lang='de'> north platte fluss </nl>
+  <nl lang='th'> แม่น้ำ นอร์ธเพลต </nl>
+  <nl lang='zh'> 北普拉特 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' north platte ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' north platte ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='148'>
+  <nl lang='en'> ohio </nl>
+  <nl lang='en'> ohio river </nl>
+  <nl lang='es'> rio ohio </nl>
+  <nl lang='ja'> ohaio kawa </nl>
+  <nl lang='tr'> ohio nehrinin </nl>
+  <nl lang='tr'> ohio nehri </nl>
+  <nl lang='el'> ohio </nl>
+  <nl lang='el'> ποταμός ohio </nl>
+  <nl lang='el'> ohio ποταμός </nl>
+  <nl lang='de'> fluss ohio </nl>
+  <nl lang='de'> ohio fluss </nl>
+  <nl lang='th'> แม่น้ำ โอไฮโฮ </nl>
+  <nl lang='th'> แม่น้ำ โอไฮโอ </nl>
+  <nl lang='zh'> 俄亥俄 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' ohio ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' ohio ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='149'>
+  <nl lang='en'> pennsylvania </nl>
+  <nl lang='el'> pennsylvania </nl>
+  <nl lang='de'> pennsylvania </nl>
+  <nl lang='th'> รัฐ เพ็นซิลเวเนีย </nl>
+  <nl lang='th'> รัฐ เพนซิลเวเนีย </nl>
+  <nl lang='zh'> 宾夕法尼亚 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' pennsylvania ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' pennsylvania ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='150'>
+  <nl lang='en'> rhode island </nl>
+  <nl lang='es'> rhode island </nl>
+  <nl lang='ja'> roodoairando </nl>
+  <nl lang='tr'> rhode island </nl>
+  <nl lang='el'> rhode island </nl>
+  <nl lang='de'> rhode island </nl>
+  <nl lang='th'> รัฐ โรดไอแลนด์ </nl>
+  <nl lang='zh'> 罗得岛 </nl>
+  <nl lang='zh'> 罗德岛 </nl>
+  <nl lang='zh'> 罗德岛 州 </nl>
+  <nl lang='zh'> 罗得岛 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' rhode island ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' rhode island ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='151'>
+  <nl lang='en'> austin </nl>
+  <nl lang='es'> austin </nl>
+  <nl lang='ja'> ausuchin </nl>
+  <nl lang='tr'> austin </nl>
+  <nl lang='el'> austin </nl>
+  <nl lang='de'> austin </nl>
+  <nl lang='th'> เมือง ออสติน </nl>
+  <nl lang='th'> ออสติน </nl>
+  <nl lang='zh'> 奥斯汀 </nl>
+  <nl lang='zh'> 奥斯汀 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' austin ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' austin ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='152'>
+  <nl lang='en'> boulder </nl>
+  <nl lang='el'> boulder </nl>
+  <nl lang='de'> boulder </nl>
+  <nl lang='th'> เมือง โบลเดอร์ </nl>
+  <nl lang='zh'> 博尔德 </nl>
+  <nl lang='zh'> 博尔德 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' boulder ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' boulder ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='153'>
+  <nl lang='en'> montgomery </nl>
+  <nl lang='el'> montgomery </nl>
+  <nl lang='de'> montgomery </nl>
+  <nl lang='th'> เมือง มอนต์โกเมอรี </nl>
+  <nl lang='zh'> 蒙哥马利 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' montgomery ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' montgomery ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='154'>
+  <nl lang='en'> arizona </nl>
+  <nl lang='es'> arizona </nl>
+  <nl lang='ja'> arizona </nl>
+  <nl lang='tr'> arizona </nl>
+  <nl lang='el'> arizona </nl>
+  <nl lang='de'> arizona </nl>
+  <nl lang='th'> รัฐ แอริโซนา </nl>
+  <nl lang='zh'> 亚利桑那 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' arizona ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' arizona ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='155'>
+  <nl lang='en'> nebraska </nl>
+  <nl lang='es'> nebraska </nl>
+  <nl lang='ja'> neburasuka </nl>
+  <nl lang='tr'> nebraska </nl>
+  <nl lang='el'> nebraska </nl>
+  <nl lang='de'> nebraska </nl>
+  <nl lang='th'> รัฐ เนบราสกา </nl>
+  <nl lang='th'> รัฐ เนบราสก้า </nl>
+  <nl lang='zh'> 内布拉斯加 </nl>
+  <nl lang='zh'> 内布拉斯加 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' nebraska ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' nebraska ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='156'>
+  <nl lang='en'> ohio </nl>
+  <nl lang='es'> ohio </nl>
+  <nl lang='ja'> ohaio </nl>
+  <nl lang='tr'> ohio </nl>
+  <nl lang='el'> ohio </nl>
+  <nl lang='de'> ohio </nl>
+  <nl lang='th'> รัฐ โอไฮโอ </nl>
+  <nl lang='th'> รัฐ โอไฮโฮ </nl>
+  <nl lang='zh'> 俄亥俄 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' ohio ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' ohio ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='157'>
+  <nl lang='en'> nevada </nl>
+  <nl lang='en'> state of nevada </nl>
+  <nl lang='es'> nevada </nl>
+  <nl lang='ja'> nebaada </nl>
+  <nl lang='tr'> nevada </nl>
+  <nl lang='el'> nevada </nl>
+  <nl lang='el'> πολιτεία της nevada </nl>
+  <nl lang='de'> nevada </nl>
+  <nl lang='th'> รัฐ เนวาดา </nl>
+  <nl lang='zh'> 内华达 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' nevada ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' nevada ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='158'>
+  <nl lang='en'> iowa </nl>
+  <nl lang='es'> iowa </nl>
+  <nl lang='ja'> aiowa </nl>
+  <nl lang='tr'> iowa </nl>
+  <nl lang='el'> iowa </nl>
+  <nl lang='de'> iowa </nl>
+  <nl lang='th'> รัฐ ไอโอวา </nl>
+  <nl lang='zh'> 爱荷华 州 </nl>
+  <nl lang='zh'> 艾奥瓦 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' iowa ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' iowa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='159'>
+  <nl lang='en'> new york </nl>
+  <nl lang='en'> new york state </nl>
+  <nl lang='es'> new york </nl>
+  <nl lang='ja'> nyuu yooku </nl>
+  <nl lang='tr'> new york </nl>
+  <nl lang='el'> new york </nl>
+  <nl lang='el'> πολιτεία της new york </nl>
+  <nl lang='de'> new york </nl>
+  <nl lang='de'> new yorks </nl>
+  <nl lang='de'> new york state </nl>
+  <nl lang='th'> รัฐ นิวยอร์ค </nl>
+  <nl lang='th'> นิวยอร์ค </nl>
+  <nl lang='zh'> 纽约 </nl>
+  <nl lang='zh'> 纽约 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' new york ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' new york ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='160'>
+  <nl lang='en'> austin texas </nl>
+  <nl lang='el'> austin texas </nl>
+  <nl lang='de'> austin texas </nl>
+  <nl lang='th'> เมือง ออสติน รัฐ เท็กซัส </nl>
+  <nl lang='zh'> 得克萨斯 州 的 奥斯汀 </nl>
+  <nl lang='zh'> 得克萨斯 州 奥斯汀 </nl>
+  <mrl lang='geo-funql'> cityid ( ' austin ' , ' tx ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' austin ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' tx ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='161'>
+  <nl lang='en'> chicago </nl>
+  <nl lang='el'> chicago </nl>
+  <nl lang='de'> chicago </nl>
+  <nl lang='th'> เมือง ชิคาโก </nl>
+  <nl lang='zh'> 芝加哥 </nl>
+  <mrl lang='geo-funql'> cityid ( ' chicago ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' chicago ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='162'>
+  <nl lang='en'> detroit </nl>
+  <nl lang='el'> detroit </nl>
+  <nl lang='de'> detroit </nl>
+  <nl lang='th'> เมือง ดีทรอยท์ </nl>
+  <nl lang='zh'> 底特律 </nl>
+  <mrl lang='geo-funql'> cityid ( ' detroit ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' detroit ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='163'>
+  <nl lang='en'> hawaii </nl>
+  <nl lang='es'> hawaii </nl>
+  <nl lang='ja'> hawai </nl>
+  <nl lang='tr'> hawaii </nl>
+  <nl lang='el'> hawaii </nl>
+  <nl lang='de'> hawaii </nl>
+  <nl lang='th'> รัฐ ฮาวาย </nl>
+  <nl lang='zh'> 夏威夷 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' hawaii ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' hawaii ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='164'>
+  <nl lang='en'> houston </nl>
+  <nl lang='el'> houston </nl>
+  <nl lang='de'> houston </nl>
+  <nl lang='th'> เมือง ฮุสตัน </nl>
+  <nl lang='zh'> 休斯敦 </nl>
+  <nl lang='zh'> 休斯顿 </nl>
+  <nl lang='zh'> 休斯顿 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' houston ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' houston ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='165'>
+  <nl lang='en'> kalamazoo </nl>
+  <nl lang='es'> kalamazoo </nl>
+  <nl lang='ja'> karamazuu </nl>
+  <nl lang='ja'> karamazuu toshi </nl>
+  <nl lang='tr'> kalamazoo </nl>
+  <nl lang='el'> kalamazoo </nl>
+  <nl lang='de'> kalamazoo </nl>
+  <nl lang='th'> เมือง คาลามาซู </nl>
+  <nl lang='zh'> 卡拉马祖 </nl>
+  <mrl lang='geo-funql'> cityid ( ' kalamazoo ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' kalamazoo ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='166'>
+  <nl lang='en'> kansas </nl>
+  <nl lang='es'> kansas </nl>
+  <nl lang='ja'> kanzasu </nl>
+  <nl lang='tr'> kansas </nl>
+  <nl lang='el'> kansas </nl>
+  <nl lang='de'> kansas </nl>
+  <nl lang='th'> รัฐ แคนซัส </nl>
+  <nl lang='zh'> 堪萨斯 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' kansas ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' kansas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='167'>
+  <nl lang='en'> minneapolis minnesota </nl>
+  <nl lang='es'> minneapolis minnesota </nl>
+  <nl lang='ja'> minesota no mineaporisu </nl>
+  <nl lang='tr'> minneapolis minnesota </nl>
+  <nl lang='el'> minneapolis minnesota </nl>
+  <nl lang='de'> minneapolis minnesota </nl>
+  <nl lang='th'> เมือง มินเนอาโพลิส รัฐ มินเนโซตา </nl>
+  <nl lang='zh'> 明尼苏达 州 的 明尼阿波利斯 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' minneapolis ' , ' mn ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' minneapolis ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' mn ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='168'>
+  <nl lang='en'> new hampshire </nl>
+  <nl lang='es'> new hampshire </nl>
+  <nl lang='ja'> nyuu hanpushaa </nl>
+  <nl lang='tr'> new hampshire </nl>
+  <nl lang='el'> new hampshire </nl>
+  <nl lang='de'> new hampshire </nl>
+  <nl lang='th'> รัฐ นิวแฮมพ์เชียร์ </nl>
+  <nl lang='zh'> 新罕布什尔 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' new hampshire ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' new hampshire ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='169'>
+  <nl lang='en'> riverside </nl>
+  <nl lang='es'> riverside </nl>
+  <nl lang='ja'> ribaasaido </nl>
+  <nl lang='tr'> riverside </nl>
+  <nl lang='el'> όχθη ποταμού </nl>
+  <nl lang='de'> riverside </nl>
+  <nl lang='th'> เมือง ริเวอร์ไซด์ </nl>
+  <nl lang='zh'> 里弗赛德斯塔特 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' riverside ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' riverside ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='170'>
+  <nl lang='en'> san francisco </nl>
+  <nl lang='el'> san francisco </nl>
+  <nl lang='de'> san francisco </nl>
+  <nl lang='th'> เมือง ซานฟรานซิสโก </nl>
+  <nl lang='zh'> 旧金山 </nl>
+  <mrl lang='geo-funql'> cityid ( ' san francisco ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' san francisco ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='171'>
+  <nl lang='en'> south dakota </nl>
+  <nl lang='es'> south dakota </nl>
+  <nl lang='ja'> sausu dakota </nl>
+  <nl lang='tr'> south dakota </nl>
+  <nl lang='el'> νότια dakota </nl>
+  <nl lang='el'> south dakota </nl>
+  <nl lang='de'> sud dakota </nl>
+  <nl lang='de'> south dakota </nl>
+  <nl lang='th'> รัฐ เซาท์ดาโกตา </nl>
+  <nl lang='th'> รัฐ เซาธ์ดาโกตา </nl>
+  <nl lang='zh'> 南达科他 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' south dakota ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' south dakota ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='172'>
+  <nl lang='en'> spokane washington </nl>
+  <nl lang='es'> spokane washington </nl>
+  <nl lang='ja'> washinton no supoken </nl>
+  <nl lang='tr'> spokane washington </nl>
+  <nl lang='el'> spokane washington </nl>
+  <nl lang='de'> spokane washington </nl>
+  <nl lang='th'> เมือง สโปเกน รัฐ วอชิงตัน </nl>
+  <nl lang='zh'> 华盛顿 州 的 斯波坎 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' spokane ' , ' wa ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' spokane ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' wa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='173'>
+  <nl lang='en'> georgia </nl>
+  <nl lang='es'> georgia </nl>
+  <nl lang='ja'> joojaa </nl>
+  <nl lang='tr'> georgia </nl>
+  <nl lang='el'> georgia </nl>
+  <nl lang='de'> georgias </nl>
+  <nl lang='de'> georgia </nl>
+  <nl lang='th'> รัฐ จอร์เจีย </nl>
+  <nl lang='zh'> 佐治亚 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' georgia ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' georgia ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='174'>
+  <nl lang='en'> wyoming </nl>
+  <nl lang='es'> wyoming </nl>
+  <nl lang='ja'> waiomingu </nl>
+  <nl lang='tr'> wyoming </nl>
+  <nl lang='el'> wyoming </nl>
+  <nl lang='de'> wyoming </nl>
+  <nl lang='de'> wyomings </nl>
+  <nl lang='th'> รัฐ ไวโอมิง </nl>
+  <nl lang='zh'> 怀俄明 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' wyoming ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' wyoming ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='175'>
+  <nl lang='en'> washington </nl>
+  <nl lang='en'> washington state </nl>
+  <nl lang='es'> washington </nl>
+  <nl lang='es'> estado de washington </nl>
+  <nl lang='ja'> washinton </nl>
+  <nl lang='ja'> washinton shuu </nl>
+  <nl lang='tr'> washington </nl>
+  <nl lang='tr'> washington eyaletin </nl>
+  <nl lang='el'> washington </nl>
+  <nl lang='el'> πολιτεία washington </nl>
+  <nl lang='de'> washington </nl>
+  <nl lang='de'> washington state </nl>
+  <nl lang='th'> รัฐ วอชิงตัน </nl>
+  <nl lang='zh'> 华盛顿 </nl>
+  <nl lang='zh'> 华盛顿 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' washington ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' washington ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='176'>
+  <nl lang='en'> washington dc </nl>
+  <nl lang='el'> washington dc </nl>
+  <nl lang='de'> washington dc </nl>
+  <nl lang='th'> เมือง วอชิงตัน ดีซี </nl>
+  <nl lang='th'> รัฐ วอชิงตัน ดีซี </nl>
+  <nl lang='zh'> 华盛顿 特区 </nl>
+  <mrl lang='geo-funql'> cityid ( ' washington ' , ' dc ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' washington ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' dc ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='177'>
+  <nl lang='en'> missouri </nl>
+  <nl lang='el'> missouri </nl>
+  <nl lang='de'> missouri </nl>
+  <nl lang='de'> missouris </nl>
+  <nl lang='th'> รัฐ มิสซูรี </nl>
+  <nl lang='zh'> 密苏里 </nl>
+  <nl lang='zh'> 密苏里 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' missouri ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' missouri ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='178'>
+  <nl lang='en'> idaho </nl>
+  <nl lang='es'> idaho </nl>
+  <nl lang='ja'> aidahou </nl>
+  <nl lang='tr'> idaho </nl>
+  <nl lang='el'> idaho </nl>
+  <nl lang='de'> idaho </nl>
+  <nl lang='th'> รัฐ ไอดาโฮ </nl>
+  <nl lang='zh'> 爱达荷 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' idaho ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' idaho ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='179'>
+  <nl lang='en'> albany </nl>
+  <nl lang='el'> albany </nl>
+  <nl lang='de'> albany </nl>
+  <nl lang='th'> อัลบานี </nl>
+  <nl lang='zh'> 奥尔巴尼 </nl>
+  <mrl lang='geo-funql'> cityid ( ' albany ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' albany ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='180'>
+  <nl lang='en'> red </nl>
+  <nl lang='en'> red river </nl>
+  <nl lang='el'> red </nl>
+  <nl lang='el'> red ποταμό </nl>
+  <nl lang='de'> red </nl>
+  <nl lang='de'> red fluss </nl>
+  <nl lang='th'> แม่น้ำ เรด </nl>
+  <nl lang='th'> แม่น้ำ เร็ด </nl>
+  <nl lang='zh'> 红 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' red ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' red ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='181'>
+  <nl lang='en'> boston </nl>
+  <nl lang='el'> boston </nl>
+  <nl lang='de'> boston </nl>
+  <nl lang='th'> บอสตัน </nl>
+  <nl lang='th'> เมือง บอสตัน </nl>
+  <nl lang='zh'> 波士顿 </nl>
+  <mrl lang='geo-funql'> cityid ( ' boston ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' boston ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='182'>
+  <nl lang='en'> tennessee </nl>
+  <nl lang='es'> tennessee </nl>
+  <nl lang='ja'> teneshii </nl>
+  <nl lang='tr'> tennessee </nl>
+  <nl lang='el'> tennessee </nl>
+  <nl lang='de'> tennessee </nl>
+  <nl lang='th'> รัฐ เทนเนสซี </nl>
+  <nl lang='zh'> 田纳西 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' tennessee ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' tennessee ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='183'>
+  <nl lang='en'> rochester </nl>
+  <nl lang='el'> rochester </nl>
+  <nl lang='de'> rochester </nl>
+  <nl lang='th'> เมือง โรเชสเตอร์ </nl>
+  <nl lang='zh'> 罗切斯特 </nl>
+  <mrl lang='geo-funql'> cityid ( ' rochester ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' rochester ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='184'>
+  <nl lang='en'> springfield </nl>
+  <nl lang='en'> city of springfield </nl>
+  <nl lang='el'> springfield </nl>
+  <nl lang='el'> πόλη springfield </nl>
+  <nl lang='de'> springfield </nl>
+  <nl lang='th'> สปริงฟิลด์ </nl>
+  <nl lang='th'> เมือง สปริงฟิลด์ </nl>
+  <nl lang='zh'> 斯普林菲尔德 </nl>
+  <nl lang='zh'> 斯普林菲尔德 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' springfield ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' springfield ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='185'>
+  <nl lang='en'> michigan </nl>
+  <nl lang='es'> michigan </nl>
+  <nl lang='ja'> mishigan </nl>
+  <nl lang='tr'> michigan </nl>
+  <nl lang='el'> michigan </nl>
+  <nl lang='de'> michigan </nl>
+  <nl lang='th'> มิชิแกน </nl>
+  <nl lang='th'> รัฐ มิชิแกน </nl>
+  <nl lang='zh'> 密歇根 </nl>
+  <nl lang='zh'> 密歇根 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' michigan ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' michigan ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='186'>
+  <nl lang='en'> sacramento </nl>
+  <nl lang='el'> sacramento </nl>
+  <nl lang='de'> sacramento </nl>
+  <nl lang='th'> เมือง ซาคราเม็นโต </nl>
+  <nl lang='zh'> 萨克拉门托 </nl>
+  <mrl lang='geo-funql'> cityid ( ' sacramento ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' sacramento ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='187'>
+  <nl lang='en'> san antonio </nl>
+  <nl lang='es'> san antonio </nl>
+  <nl lang='ja'> sanantonio </nl>
+  <nl lang='tr'> san antonio </nl>
+  <nl lang='el'> san antonio </nl>
+  <nl lang='de'> san antonio </nl>
+  <nl lang='th'> เมือง ซานอันโตนิโอ </nl>
+  <nl lang='zh'> 圣安东尼奥 </nl>
+  <mrl lang='geo-funql'> cityid ( ' san antonio ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' san antonio ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='188'>
+  <nl lang='en'> north carolina </nl>
+  <nl lang='el'> north carolina </nl>
+  <nl lang='de'> north carolinas </nl>
+  <nl lang='th'> รัฐ นอร์ธแคโรไลนา </nl>
+  <nl lang='zh'> 北卡罗来纳 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' north carolina ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' north carolina ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='189'>
+  <nl lang='en'> oklahoma </nl>
+  <nl lang='es'> oklahoma </nl>
+  <nl lang='ja'> okurahoma </nl>
+  <nl lang='tr'> oklahoma </nl>
+  <nl lang='el'> oklahoma </nl>
+  <nl lang='de'> oklahoma </nl>
+  <nl lang='th'> รัฐ โอกลาโฮมา </nl>
+  <nl lang='zh'> 俄克拉荷马 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' oklahoma ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' oklahoma ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='190'>
+  <nl lang='en'> vermont </nl>
+  <nl lang='es'> vermont </nl>
+  <nl lang='ja'> baamonto </nl>
+  <nl lang='tr'> vermont </nl>
+  <nl lang='el'> vermont </nl>
+  <nl lang='de'> vermont </nl>
+  <nl lang='th'> รัฐ เวอร์มอนต์ </nl>
+  <nl lang='th'> รัฐ เวอร์ม็อนต์ </nl>
+  <nl lang='zh'> 佛蒙特 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' vermont ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' vermont ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='191'>
+  <nl lang='en'> illinois </nl>
+  <nl lang='es'> illinois </nl>
+  <nl lang='ja'> irinoi </nl>
+  <nl lang='tr'> illinois </nl>
+  <nl lang='el'> illinois </nl>
+  <nl lang='de'> illinois </nl>
+  <nl lang='th'> รัฐ อิลลินอยส์ </nl>
+  <nl lang='zh'> 伊利诺伊 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' illinois ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' illinois ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='192'>
+  <nl lang='en'> indiana </nl>
+  <nl lang='en'> state of indiana </nl>
+  <nl lang='es'> indiana </nl>
+  <nl lang='ja'> indiana </nl>
+  <nl lang='tr'> indiana </nl>
+  <nl lang='el'> indiana </nl>
+  <nl lang='el'> πολιτεία της indiana </nl>
+  <nl lang='de'> indiana </nl>
+  <nl lang='de'> staate indiana </nl>
+  <nl lang='th'> รัฐ อินเดียนา </nl>
+  <nl lang='th'> รัฐ อินเดียน่า </nl>
+  <nl lang='zh'> 印第安纳 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' indiana ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' indiana ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='193'>
+  <nl lang='en'> potomac </nl>
+  <nl lang='el'> potomac </nl>
+  <nl lang='de'> potomac </nl>
+  <nl lang='th'> แม่น้ำ โปโตแมค </nl>
+  <nl lang='zh'> 波托马克 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' potomac ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' potomac ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='194'>
+  <nl lang='en'> maine </nl>
+  <nl lang='es'> maine </nl>
+  <nl lang='ja'> meen </nl>
+  <nl lang='tr'> maine </nl>
+  <nl lang='el'> maine </nl>
+  <nl lang='de'> maine </nl>
+  <nl lang='th'> รัฐ เมน </nl>
+  <nl lang='zh'> 缅因 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' maine ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' maine ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='195'>
+  <nl lang='en'> maryland </nl>
+  <nl lang='el'> maryland </nl>
+  <nl lang='de'> maryland </nl>
+  <nl lang='th'> รัฐ แมรีแลนด์ </nl>
+  <nl lang='zh'> 马里兰 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' maryland ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' maryland ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='196'>
+  <nl lang='en'> seattle </nl>
+  <nl lang='el'> seattle </nl>
+  <nl lang='de'> seattles </nl>
+  <nl lang='de'> seattle </nl>
+  <nl lang='th'> เมือง ซีแอตเทิล </nl>
+  <mrl lang='geo-funql'> cityid ( ' seattle ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' seattle ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='197'>
+  <nl lang='en'> south carolina </nl>
+  <nl lang='es'> south carolina </nl>
+  <nl lang='ja'> sausu karoraina </nl>
+  <nl lang='tr'> south carolina </nl>
+  <nl lang='el'> south carolina </nl>
+  <nl lang='de'> south carolina </nl>
+  <nl lang='th'> รัฐ เซาท์แคโรไลนา </nl>
+  <nl lang='zh'> 南卡罗来纳 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' south carolina ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' south carolina ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='198'>
+  <nl lang='en'> wisconsin </nl>
+  <nl lang='es'> wisconsin </nl>
+  <nl lang='ja'> uisukonshin </nl>
+  <nl lang='tr'> wisconsin </nl>
+  <nl lang='el'> wisconsin </nl>
+  <nl lang='de'> wisconsin </nl>
+  <nl lang='th'> รัฐ วิสคอนซิน </nl>
+  <nl lang='zh'> 威斯康星 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' wisconsin ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' wisconsin ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='199'>
+  <nl lang='en'> new jersey </nl>
+  <nl lang='es'> new jersey </nl>
+  <nl lang='ja'> nyuu jaajii </nl>
+  <nl lang='tr'> new jersey </nl>
+  <nl lang='el'> new jersey </nl>
+  <nl lang='de'> new jersey </nl>
+  <nl lang='th'> รัฐ นิวเจอร์ซี </nl>
+  <nl lang='zh'> 新泽西 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' new jersey ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' new jersey ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='200'>
+  <nl lang='en'> durham </nl>
+  <nl lang='el'> durham </nl>
+  <nl lang='de'> durham </nl>
+  <nl lang='th'> เดอแรม </nl>
+  <nl lang='zh'> 达勒姆 </nl>
+  <mrl lang='geo-funql'> cityid ( ' durham ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' durham ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='201'>
+  <nl lang='en'> death valley </nl>
+  <nl lang='el'> death valley </nl>
+  <nl lang='de'> death valley </nl>
+  <nl lang='th'> เดธแวลีย์ </nl>
+  <nl lang='zh'> 死亡谷 </nl>
+  <mrl lang='geo-funql'> placeid ( ' death valley ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:Place -> ({ placeid ( *n:PlaceName ) }) </node>
+   <node id='1'> *n:PlaceName -> ({ ' death valley ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='202'>
+  <nl lang='en'> des moines </nl>
+  <nl lang='es'> des moines </nl>
+  <nl lang='ja'> demoin </nl>
+  <nl lang='tr'> des moines </nl>
+  <nl lang='el'> des moines </nl>
+  <nl lang='de'> des moines </nl>
+  <nl lang='th'> เดส์มวง </nl>
+  <nl lang='zh'> 德梅因 </nl>
+  <mrl lang='geo-funql'> cityid ( ' des moines ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' des moines ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='203'>
+  <nl lang='en'> minnesota </nl>
+  <nl lang='es'> minnesota </nl>
+  <nl lang='ja'> minesota </nl>
+  <nl lang='tr'> minnesota </nl>
+  <nl lang='el'> minnesota </nl>
+  <nl lang='de'> minnesota </nl>
+  <nl lang='th'> รัฐ มินเนโซตา </nl>
+  <nl lang='zh'> 明尼苏达 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' minnesota ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' minnesota ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='204'>
+  <nl lang='en'> kentucky </nl>
+  <nl lang='es'> kentucky </nl>
+  <nl lang='ja'> kentakkii </nl>
+  <nl lang='tr'> kentucky </nl>
+  <nl lang='el'> kentucky </nl>
+  <nl lang='de'> kentucky </nl>
+  <nl lang='th'> รัฐ เคนตักกี้ </nl>
+  <nl lang='th'> รัฐ เคนตักกี </nl>
+  <nl lang='zh'> 肯塔基 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' kentucky ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' kentucky ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='205'>
+  <nl lang='en'> atlanta </nl>
+  <nl lang='es'> atlanta </nl>
+  <nl lang='ja'> ataranta </nl>
+  <nl lang='tr'> atlanta </nl>
+  <nl lang='el'> atlanta </nl>
+  <nl lang='de'> atlanta </nl>
+  <nl lang='th'> แอตแลนต้า </nl>
+  <nl lang='th'> เมือง แอตแลนต้า </nl>
+  <nl lang='zh'> 亚特兰大 </nl>
+  <mrl lang='geo-funql'> cityid ( ' atlanta ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' atlanta ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='206'>
+  <nl lang='en'> atlanta ga </nl>
+  <nl lang='el'> atlanta ga </nl>
+  <nl lang='de'> atlanta ga </nl>
+  <nl lang='th'> เมือง แอตแลนต้า รัฐ จอร์เจีย </nl>
+  <nl lang='zh'> 佐治亚 州 亚特兰大 </nl>
+  <mrl lang='geo-funql'> cityid ( ' atlanta ' , ' ga ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' atlanta ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' ga ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='207'>
+  <nl lang='en'> boston massachusetts </nl>
+  <nl lang='es'> boston massachusetts </nl>
+  <nl lang='ja'> masachuusettsu no bosuton </nl>
+  <nl lang='tr'> boston massachusetts </nl>
+  <nl lang='el'> boston massachusetts </nl>
+  <nl lang='de'> boston massachusetts </nl>
+  <nl lang='th'> เมือง บอสตัน รัฐ แมสซาชูเซ็ตต์ </nl>
+  <nl lang='zh'> 马萨诸塞 州 波士顿 </nl>
+  <mrl lang='geo-funql'> cityid ( ' boston ' , ' ma ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' boston ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' ma ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='208'>
+  <nl lang='en'> dallas </nl>
+  <nl lang='es'> dallas </nl>
+  <nl lang='ja'> darasu </nl>
+  <nl lang='tr'> dallas </nl>
+  <nl lang='tr'> dallas sehri </nl>
+  <nl lang='el'> dallas </nl>
+  <nl lang='de'> dallas </nl>
+  <nl lang='th'> ดัลลัส </nl>
+  <nl lang='th'> เมือง ดัลลัส </nl>
+  <nl lang='zh'> 达拉斯 </nl>
+  <nl lang='zh'> 达拉斯 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' dallas ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' dallas ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='209'>
+  <nl lang='en'> denver </nl>
+  <nl lang='en'> city denver </nl>
+  <nl lang='tr'> denver sehri </nl>
+  <nl lang='el'> denver </nl>
+  <nl lang='el'> πόλη denver </nl>
+  <nl lang='de'> denver </nl>
+  <nl lang='th'> เมือง เดนเวอร์ </nl>
+  <nl lang='zh'> 丹佛 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' denver ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' denver ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='210'>
+  <nl lang='en'> erie pennsylvania </nl>
+  <nl lang='es'> erie pennsylvania </nl>
+  <nl lang='ja'> penshirubenia no eri </nl>
+  <nl lang='tr'> erie pennsylvania </nl>
+  <nl lang='el'> erie pennsylvania </nl>
+  <nl lang='de'> erie in pennsylvania </nl>
+  <nl lang='th'> เมือง อีรี รัฐ เพ็นซิลเวเนีย </nl>
+  <nl lang='zh'> 宾夕法尼亚 州 伊利 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' erie ' , ' pa ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' erie ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' pa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='211'>
+  <nl lang='en'> portland maine </nl>
+  <nl lang='es'> portland maine </nl>
+  <nl lang='ja'> meen no porutorando </nl>
+  <nl lang='tr'> portland maine </nl>
+  <nl lang='el'> portland maine </nl>
+  <nl lang='de'> portland maine </nl>
+  <nl lang='th'> เมือง พอร์ตแลนด์ รัฐ เมน </nl>
+  <nl lang='zh'> 缅因 州 波特兰 </nl>
+  <mrl lang='geo-funql'> cityid ( ' portland ' , ' me ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' portland ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' me ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='212'>
+  <nl lang='en'> seattle washington </nl>
+  <nl lang='es'> seattle washington </nl>
+  <nl lang='ja'> washinton no shiatoru </nl>
+  <nl lang='tr'> seattle washington </nl>
+  <nl lang='el'> seattle washington </nl>
+  <nl lang='de'> seattle in washington </nl>
+  <nl lang='th'> เมือง ซีแอตเติล รัฐ วอชิงตัน </nl>
+  <nl lang='zh'> 华盛顿 州 西雅图 </nl>
+  <mrl lang='geo-funql'> cityid ( ' seattle ' , ' wa ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' seattle ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' wa ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='213'>
+  <nl lang='en'> springfield missouri </nl>
+  <nl lang='es'> springfield missouri </nl>
+  <nl lang='ja'> mizuuri no supuringufiirudo </nl>
+  <nl lang='tr'> springfield missouri </nl>
+  <nl lang='el'> springfield missouri </nl>
+  <nl lang='de'> springfield missouri </nl>
+  <nl lang='th'> เมือง สปริงฟิลด์ รัฐ มิสซูรี </nl>
+  <nl lang='zh'> 密苏里 州 斯普林菲尔德 </nl>
+  <mrl lang='geo-funql'> cityid ( ' springfield ' , ' mo ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' springfield ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' mo ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='214'>
+  <nl lang='en'> springfield south dakota </nl>
+  <nl lang='el'> springfield νότια ντακότα </nl>
+  <nl lang='de'> springfield in south dakota </nl>
+  <nl lang='th'> เมือง สปริงฟิลด์ รัฐ เซาท์ดาโกตา </nl>
+  <nl lang='zh'> 南达科他 州 的 斯普林菲尔德 </nl>
+  <mrl lang='geo-funql'> cityid ( ' springfield ' , ' sd ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' springfield ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' sd ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='215'>
+  <nl lang='en'> tempe arizona </nl>
+  <nl lang='es'> tempe arizona </nl>
+  <nl lang='ja'> arizona no tenpi </nl>
+  <nl lang='tr'> tempe arizona </nl>
+  <nl lang='el'> tempe arizona </nl>
+  <nl lang='de'> tempe arizona </nl>
+  <nl lang='th'> เมือง เทมเป้ รัฐ แอริโซนา </nl>
+  <nl lang='zh'> 亚利桑那 州 坦佩 </nl>
+  <mrl lang='geo-funql'> cityid ( ' tempe ' , ' az ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , *n:StateAbbrev ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' tempe ' }) </node>
+   <node id='2'> *n:StateAbbrev -> ({ ' az ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='216'>
+  <nl lang='en'> tucson </nl>
+  <nl lang='es'> tucson </nl>
+  <nl lang='ja'> tsuuson </nl>
+  <nl lang='tr'> tucson </nl>
+  <nl lang='el'> tucson </nl>
+  <nl lang='de'> tucson </nl>
+  <nl lang='th'> เมือง ทูซอน </nl>
+  <nl lang='zh'> 图森 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' tucson ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' tucson ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='217'>
+  <nl lang='en'> west virginia </nl>
+  <nl lang='es'> west virginia </nl>
+  <nl lang='ja'> uesuto baajinia </nl>
+  <nl lang='tr'> west virginia </nl>
+  <nl lang='el'> west virginia </nl>
+  <nl lang='de'> west virginia </nl>
+  <nl lang='th'> รัฐ เวสท์เวอร์จิเนีย </nl>
+  <nl lang='zh'> 西弗吉尼亚 州 </nl>
+  <mrl lang='geo-funql'> stateid ( ' west virginia ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:State -> ({ stateid ( *n:StateName ) }) </node>
+   <node id='1'> *n:StateName -> ({ ' west virginia ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='218'>
+  <nl lang='en'> salem </nl>
+  <nl lang='es'> salem </nl>
+  <nl lang='ja'> saremu </nl>
+  <nl lang='tr'> salem </nl>
+  <nl lang='el'> salem </nl>
+  <nl lang='de'> salem </nl>
+  <nl lang='th'> ซาเล็ม </nl>
+  <nl lang='zh'> 塞勒姆 </nl>
+  <mrl lang='geo-funql'> cityid ( ' salem ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' salem ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='219'>
+  <nl lang='en'> city flint </nl>
+  <nl lang='es'> ciudad flint </nl>
+  <nl lang='ja'> furinto toshi </nl>
+  <nl lang='tr'> flint sehri </nl>
+  <nl lang='el'> πόλη flint </nl>
+  <nl lang='de'> stadt flint </nl>
+  <nl lang='th'> ฟลินท์ </nl>
+  <nl lang='zh'> 弗林特 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' flint ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' flint ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='220'>
+  <nl lang='en'> columbus </nl>
+  <nl lang='es'> columbus </nl>
+  <nl lang='ja'> koronbaasu </nl>
+  <nl lang='tr'> columbus </nl>
+  <nl lang='el'> columbus </nl>
+  <nl lang='de'> columbus </nl>
+  <nl lang='th'> โคลัมบัส </nl>
+  <nl lang='zh'> 哥伦布 </nl>
+  <mrl lang='geo-funql'> cityid ( ' columbus ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' columbus ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='221'>
+  <nl lang='en'> miami </nl>
+  <nl lang='el'> miami </nl>
+  <nl lang='de'> miami </nl>
+  <nl lang='th'> เมือง ไมอามี </nl>
+  <nl lang='zh'> 迈阿密 </nl>
+  <mrl lang='geo-funql'> cityid ( ' miami ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' miami ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='222'>
+  <nl lang='en'> pittsburgh </nl>
+  <nl lang='el'> pittsburgh </nl>
+  <nl lang='de'> pittsburgh </nl>
+  <nl lang='th'> เมือง พิทส์เบิร์ก </nl>
+  <nl lang='zh'> 匹兹堡 </nl>
+  <mrl lang='geo-funql'> cityid ( ' pittsburgh ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' pittsburgh ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='223'>
+  <nl lang='en'> dover </nl>
+  <nl lang='es'> dover </nl>
+  <nl lang='ja'> doobaa </nl>
+  <nl lang='tr'> dover </nl>
+  <nl lang='el'> dover </nl>
+  <nl lang='de'> dover </nl>
+  <nl lang='th'> โดเวอร์ </nl>
+  <nl lang='zh'> 多佛 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' dover ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' dover ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='224'>
+  <nl lang='en'> plano </nl>
+  <nl lang='es'> plano </nl>
+  <nl lang='ja'> purano </nl>
+  <nl lang='tr'> plano sehri </nl>
+  <nl lang='el'> plano </nl>
+  <nl lang='de'> plano </nl>
+  <nl lang='th'> พลาโน </nl>
+  <nl lang='zh'> 普莱诺 </nl>
+  <mrl lang='geo-funql'> cityid ( ' plano ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' plano ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='225'>
+  <nl lang='en'> portland </nl>
+  <nl lang='el'> portland </nl>
+  <nl lang='de'> portland </nl>
+  <nl lang='th'> พอร์ตแลนด์ </nl>
+  <nl lang='th'> เมือง พอร์ตแลนด์ </nl>
+  <nl lang='zh'> 波特兰 </nl>
+  <nl lang='zh'> 波特兰 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' portland ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' portland ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='226'>
+  <nl lang='en'> salt lake city </nl>
+  <nl lang='el'> salt lake city </nl>
+  <nl lang='de'> salt lake city </nl>
+  <nl lang='th'> ซอลท์เลคซิตี </nl>
+  <nl lang='zh'> 盐湖城 </nl>
+  <mrl lang='geo-funql'> cityid ( ' salt lake city ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' salt lake city ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='227'>
+  <nl lang='en'> baton rouge </nl>
+  <nl lang='el'> baton rouge </nl>
+  <nl lang='de'> baton rouge </nl>
+  <nl lang='th'> บาทงรูจ </nl>
+  <nl lang='zh'> 巴吞鲁日 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' baton rouge ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' baton rouge ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='228'>
+  <nl lang='en'> fort wayne </nl>
+  <nl lang='el'> fort wayne </nl>
+  <nl lang='de'> fort wayne </nl>
+  <nl lang='th'> ฟอร์ต เวยน์ </nl>
+  <nl lang='zh'> 韦恩堡 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' fort wayne ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' fort wayne ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='229'>
+  <nl lang='en'> indianapolis </nl>
+  <nl lang='el'> indianapolis </nl>
+  <nl lang='de'> indianapolis </nl>
+  <nl lang='th'> เมือง อินเดียนาโปลิส </nl>
+  <nl lang='zh'> 印第安纳波利斯 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' indianapolis ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' indianapolis ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='230'>
+  <nl lang='en'> mount whitney </nl>
+  <nl lang='el'> mount whitney </nl>
+  <nl lang='el'> όρος whitney </nl>
+  <nl lang='de'> mount whitney </nl>
+  <nl lang='th'> ภูเขา วิทนีย์ </nl>
+  <nl lang='th'> ยอดเขา วิทนีย์ </nl>
+  <nl lang='zh'> 惠特尼 山 </nl>
+  <mrl lang='geo-funql'> placeid ( ' mount whitney ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:Place -> ({ placeid ( *n:PlaceName ) }) </node>
+   <node id='1'> *n:PlaceName -> ({ ' mount whitney ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='231'>
+  <nl lang='en'> new orleans </nl>
+  <nl lang='el'> new orleans </nl>
+  <nl lang='de'> new orleans </nl>
+  <nl lang='th'> เมือง นิวออร์ลีนส์ </nl>
+  <nl lang='zh'> 新奥尔良 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' new orleans ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' new orleans ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='232'>
+  <nl lang='en'> san diego </nl>
+  <nl lang='el'> san diego </nl>
+  <nl lang='de'> san diego </nl>
+  <nl lang='th'> เมือง ซานดิอาโก </nl>
+  <nl lang='zh'> 圣地亚哥 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' san diego ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' san diego ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='233'>
+  <nl lang='en'> san jose </nl>
+  <nl lang='el'> san jose </nl>
+  <nl lang='de'> san jose </nl>
+  <nl lang='th'> เมือง ซาน โฮเซ </nl>
+  <nl lang='zh'> 圣何塞 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' san jose ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' san jose ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='234'>
+  <nl lang='en'> scotts valley </nl>
+  <nl lang='el'> scotts valley </nl>
+  <nl lang='de'> scotts valley </nl>
+  <nl lang='th'> สก็อตแวลลีย์ </nl>
+  <nl lang='zh'> 斯科茨瓦利 市 </nl>
+  <mrl lang='geo-funql'> cityid ( ' scotts valley ' , _ ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:City -> ({ cityid ( *n:CityName , _ ) }) </node>
+   <node id='1'> *n:CityName -> ({ ' scotts valley ' }) </node>
+  </mrl-parse>
+ </example>
+
+ <example id='235'>
+  <nl lang='en'> chattahoochee river </nl>
+  <nl lang='el'> chattahoochee ποταμός  </nl>
+  <nl lang='el'> ποταμός chattahoochee  </nl>
+  <nl lang='zh'> 查塔胡奇 河 </nl>
+  <mrl lang='geo-funql'> riverid ( ' chattahoochee ' ) </mrl>
+  <mrl lang='geo-prolog'>  </mrl>
+  <mrl-parse>
+   <node id='0'> *n:River -> ({ riverid ( *n:RiverName ) }) </node>
+   <node id='1'> *n:RiverName -> ({ ' chattahoochee ' }) </node>
+  </mrl-parse>
+ </example>
+
+</examples>

@@ -1,0 +1,8 @@
+smt_semparse: /home/jacob/src/smt-semparse
+
+moses:  /home/jacob/src/3p/mosesdecoder
+srilm:  /home/jacob/src/3p/srilm1.6.0
+prolog: /usr/bin/swipl
+wasp:   /home/jacob/src/3p/wasp-1.0
+
+srilm_arch: i686-m64

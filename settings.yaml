@@ -1,0 +1,16 @@
+nbest:   100       # how many entries in the nbest list?
+corpus:  geo       # which corpus? [geo, robo]
+lang:    en        # which language? [en, de, el, th]
+stem:    false      # run the stemmer?
+symm:    tgttosrc  # which symmetrization? [e.g. srctotgt, tgttosrc, grow, ...]
+np:      true      # use NP list?
+np_type: all       # what version of NP list?
+model:   hier      # which machine translation model? [phrase, hier]
+run:     test     # which experiment? [dev, test, debug]
+workdir: work      # where?
+filter:  false     # filter phrase table?
+lfrac:   1.0       # what fraction of training sentences should be labeled?
+monolingual: false # use monolingual data?
+ul_only: false
+retrain: false
+nlg:     true

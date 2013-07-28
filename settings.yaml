@@ -1,16 +1,18 @@
 nbest:   100       # how many entries in the nbest list?
 corpus:  geo       # which corpus? [geo, robo]
 lang:    en        # which language? [en, de, el, th]
-stem:    false      # run the stemmer?
-symm:    tgttosrc  # which symmetrization? [e.g. srctotgt, tgttosrc, grow, ...]
+stem:    false     # run the stemmer?
+symm:    srctotgt  # which symmetrization? [e.g. srctotgt, tgttosrc, grow, ...]
 np:      true      # use NP list?
 np_type: all       # what version of NP list?
 model:   hier      # which machine translation model? [phrase, hier]
-run:     test     # which experiment? [dev, test, debug]
+run:     test      # which experiment? [dev, test, debug]
 workdir: work      # where?
-filter:  false     # filter phrase table?
-lfrac:   1.0       # what fraction of training sentences should be labeled?
-monolingual: false # use monolingual data?
-ul_only: false
-retrain: false
-nlg:     true
+
+# experimental, and unrelated to published work
+retrain:     false   # after tuning, re-extract phrases from tune and train data
+filter:      false   # filter malformed trees from phrase table?
+lfrac:       1.0     # what fraction of training sentences should be labeled?
+monolingual: false   # use monolingual data?
+ul_only:     false   # reweight only with unlabeled data
+nlg:         false   # do MRL->NL rather than semantic parsing

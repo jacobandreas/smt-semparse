@@ -10,7 +10,8 @@ Yes.
 For a description of the system (it's really not complicated), see:
 
 - J Andreas, A Vlachos and S Clark. "Semantic Parsing as Machine
-  Translation". To appear in ACL-SHORT 2013.
+  Translation". In ACL-short 2013. 
+  http://www.cs.berkeley.edu/~jda/papers/avc_smt_semparse.pdf
 
 ### Getting started
 

@@ -13,6 +13,9 @@ For a description of the system (it's really not complicated), see:
   Translation". In ACL-short 2013. 
   http://www.cs.berkeley.edu/~jda/papers/avc_smt_semparse.pdf
 
+You should also check out Carolin Haas's cdec-based reimplementation at
+https://github.com/carhaas/cdec-semparse. 
+
 ### Getting started
 
 Edit `dependencies.yaml` to reflect the configuration of your system.
